@@ -17,7 +17,8 @@ const problems = [];
 const forbidden = [
   /nexara/i,
   /shneo[.\-_ ]?ai\b/i,
-  /firebase/i,
+  // Firebase integrations (the privacy policy may name Google's logging host).
+  /firebaseapp|firebaseConfig|firebasejs|firebase-[a-z]+\.js|initializeApp\(/i,
   /didit/i,
   /braineater/i,
   /web\.app/i,

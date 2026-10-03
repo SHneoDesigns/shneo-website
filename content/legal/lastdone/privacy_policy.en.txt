@@ -1,0 +1,104 @@
+# Privacy policy for LastDone
+
+Last updated: 3 October 2026
+
+This privacy policy applies to the Android app LastDone (listed on Google Play as "SHneo LastDone") by SHneoDesigns. It describes which personal data is processed when you use the app, by whom and for what purpose.
+
+## 1. Controller
+
+SHneoDesigns
+Owner: Steven Detlef Hahn
+Clara-Zetkin-Str. 19
+04610 Meuselwitz
+Germany
+E-mail: support@shneo.app
+Phone: +49 1520 3627692
+
+## 2. Overview
+
+- LastDone works without a user account, without registration and without signing in.
+- The core features of the app and your entries work locally on your device. SHneoDesigns runs no server to which the app sends your entries and no cloud of its own for user data.
+- SHneoDesigns uses no analytics or tracking tools of its own in LastDone, shows no ads and does not use an advertising ID.
+- For purchasing, restoring the purchase and ratings, LastDone uses Google Play services. The Google Play Billing Library built into the app also automatically sends technical diagnostic information to Google (section 6).
+
+## 3. Data stored only on your device
+
+LastDone stores the following data in the app's private storage on your device. The app does not send it to SHneoDesigns:
+
+- your entries: items, categories, due dates and completions with date, note, measurement and cost
+- your settings, for example theme, language, sorting and the reminder settings of each item
+- trial information: the time the trial started and the latest time the app has seen (two points in time, no identifier)
+- the confirmation of a purchase: the product ID and the time of confirmation (no payment details, no receipt)
+- technical data stored locally by built-in libraries, for example the reminders scheduled by Android and a queue of the Google Play Billing Library for diagnostic information that has not been sent yet (section 6)
+
+Android's automatic cloud backup is switched off for LastDone. If you uninstall the app or clear its storage in the Android settings, Android removes this data from your device. An existing purchase remains recorded with Google Play and can be restored.
+
+This data is stored to provide the app features you use. As it does not leave your device, SHneoDesigns has no access to it.
+
+## 4. Trial
+
+After installation, LastDone can be used in full for 14 days. For this, the app stores the start time and the latest time seen locally (section 3). There is no account, no server and no device identifier for the trial; SHneoDesigns does not create a device fingerprint. When the trial ends, all your entries are kept.
+
+## 5. Reminders
+
+Reminders are local notifications that Android schedules and shows on your device. LastDone asks for the notification permission only when you turn on a reminder. To keep reminders after the device restarts, the app may run when the device starts. No push messages are used and no data is transmitted for reminders.
+
+## 6. Purchase, restore and Google Play Billing diagnostics
+
+After the trial, LastDone is unlocked permanently with a one-time purchase through Google Play. Purchasing and restoring a purchase work through Google Play and the Google Play Billing Library (version 8.0.0) by Google that is built into the app.
+
+Purchase and restore: the app asks Google Play for the status of the purchase, starts the Google Play purchase dialog when you choose to buy, and confirms a purchase to Google Play. In doing so, the app processes the purchase and product information provided by Google Play (for example product ID, purchase state and purchase token) as far as needed for unlocking. Google handles the payment. You enter payment details such as card or account numbers only with Google; SHneoDesigns does not receive them.
+
+Automatic diagnostics: a technical review of the release candidate found that the Google Play Billing Library creates technical diagnostic information as soon as it connects to Google Play – that is, also without a purchase – briefly stores it on the device and sends it to Google (to the Google service firebaselogging.googleapis.com, source "PLAY_BILLING_LIBRARY"). Observed were in particular:
+
+- Billing Library version, package name and version of the app
+- a technical session identifier of the library
+- Android version or API level
+- country, language and time zone
+- mobile network code (MCC/MNC) and type of network connection
+- manufacturer, model, device, product and hardware name, Android build information and build fingerprint
+- technical status and error information of the billing connection
+
+With every connection, your device's IP address is also technically visible to the recipient.
+
+This transmission is made by Google's library directly to Google. SHneoDesigns does not receive or use this diagnostic information. Google processes it under its own terms; Google determines how long it is stored. For more information, see Google's privacy policy: https://policies.google.com/privacy
+
+The legal basis for integrating Google Play Billing is Art. 6(1)(b) GDPR as far as purchasing and restoring are concerned, and otherwise Art. 6(1)(f) GDPR. SHneoDesigns' legitimate interest is to offer purchasing and restoring through the official interface intended by Google Play.
+
+## 7. Ratings through Google Play
+
+LastDone uses Google Play's rating dialog ("in-app review"). The app asks for a rating automatically at most once per installation, no earlier than five calendar days after the trial started and after at least five completions, and only right after a successful completion. Google decides whether the dialog actually appears. With "Rate LastDone" you can also open the LastDone page on Google Play yourself at any time.
+
+You submit the rating directly to Google, and Google processes it. LastDone does not learn whether you rated, how many stars you gave or what you wrote. There is no reward for ratings, and LastDone does not first ask whether you like the app.
+
+## 8. Backups
+
+A backup is only created when you start it yourself. You choose where it is saved with Android's file picker. The backup is an unencrypted JSON file with your entries, your settings and the trial's points in time. A SHA-256 checksum is only used to detect damaged files; it is neither encryption nor a digital signature. The backup is not sent to SHneoDesigns. If you choose a storage location of another provider (for example a cloud storage), its terms apply. You are responsible for keeping your backup safe.
+
+## 9. Links and online content
+
+If you open the LastDone page on Google Play or the online version of this privacy policy from within LastDone, it opens in the Google Play app or in your browser. Google's privacy terms or the privacy policy of the website https://shneo.app/en/legal/privacy/ then apply.
+
+## 10. Support by e-mail
+
+If you write to us at support@shneo.app, we process the data you send us, for example your e-mail address, your name (if given), the content of your message, attachments and technical details you choose to include. We use this data only to handle your request. Please never send us passwords, payment details or other confidential data.
+
+The legal basis is Art. 6(1)(b) GDPR where your request concerns a contract or steps prior to a contract, and otherwise Art. 6(1)(f) GDPR (our legitimate interest in answering requests). We keep the data as long as needed to handle your request; statutory retention obligations remain unaffected.
+
+Our mailbox is operated by Zoho Corporation B.V., Beneluxlaan 4B, 3527 HT Utrecht, the Netherlands, as processor. Zoho's privacy information: https://www.zoho.com/privacy.html
+
+## 11. No further processing
+
+SHneoDesigns does not sell data, does not profile users and makes no automated decisions within the meaning of Art. 22 GDPR. LastDone does not request access to location, contacts, camera or microphone.
+
+## 12. Your rights
+
+Where SHneoDesigns processes personal data about you (for example for a support request), you have the right under the GDPR to access (Art. 15), rectification (Art. 16), erasure (Art. 17), restriction of processing (Art. 18) and data portability (Art. 20), and the right to object, on grounds relating to your particular situation, to processing based on Art. 6(1)(f) GDPR (Art. 21). Please contact support@shneo.app.
+
+You can change data stored only on your device yourself in the app at any time or delete it by uninstalling the app. For data processed by Google, please contact Google.
+
+You also have the right to lodge a complaint with a data protection supervisory authority. The authority responsible for SHneoDesigns is: Thüringer Landesbeauftragter für den Datenschutz und die Informationsfreiheit (Thuringian State Commissioner for Data Protection and Freedom of Information), Häßlerstraße 8, 99096 Erfurt, Germany, https://www.tlfdi.de
+
+## 13. Changes
+
+We update this privacy policy when the app or the law changes. The current version is available in the app and at https://shneo.app/en/apps/lastdone/privacy/

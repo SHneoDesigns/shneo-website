@@ -1,0 +1,77 @@
+# Nutzungsbedingungen für LastDone
+
+Stand: 3. Oktober 2026
+
+## 1. Anbieter und Geltungsbereich
+
+Diese Nutzungsbedingungen regeln die Nutzung der Android-App LastDone (im Google Play Store „SHneo LastDone“). Anbieter der App ist SHneoDesigns, Inhaber Steven Detlef Hahn, Clara-Zetkin-Str. 19, 04610 Meuselwitz, Deutschland, E-Mail: support@shneo.app.
+
+LastDone wird über Google Play vertrieben. Für den Download und für den Kauf der dauerhaften Freischaltung gelten zusätzlich die Nutzungsbedingungen von Google Play. Der Vertrag über den Kauf kommt nach diesen Bedingungen mit Google zustande; für Nutzer im Europäischen Wirtschaftsraum ist dies nach Angaben von Google die Google Commerce Limited, Dublin, Irland.
+
+## 2. Leistungsbeschreibung
+
+LastDone hilft dir, Dinge und Aufgaben mit Fälligkeiten zu verwalten, Erledigungen festzuhalten und dich lokal erinnern zu lassen. Deine Einträge werden lokal auf deinem Gerät gespeichert. Ein Konto oder eine Registrierung bei SHneoDesigns ist nicht erforderlich.
+
+## 3. Kostenloser Download und Testphase
+
+Der Download von LastDone ist kostenlos. Ab dem ersten Start kannst du LastDone 14 Tage lang mit allen Funktionen kostenlos nutzen. Die Testphase endet automatisch; danach entsteht keine Zahlungspflicht und es beginnt kein kostenpflichtiges Abonnement.
+
+Nach Ablauf der Testphase ist die Nutzung der App gesperrt, bis du LastDone durch einen einmaligen Kauf freischaltest oder einen früheren Kauf wiederherstellst. Deine Einträge bleiben dabei vollständig erhalten. Die Datenschutzerklärung, das Impressum, diese Nutzungsbedingungen und der Kontakt zum Support bleiben auch während der Sperre erreichbar.
+
+## 4. Einmaliger Kauf und Zahlung
+
+Der Kauf schaltet LastDone dauerhaft frei. Es handelt sich um einen einmaligen Kauf, kein Abonnement und keine automatische Verlängerung. Der Preis wird dir vor dem Kauf im Kaufdialog von Google Play angezeigt. Die Zahlung wickelt Google ab; SHneoDesigns erhält keine Zahlungsdaten.
+
+Einen Kauf kannst du über die Funktion „Kauf wiederherstellen“ wiederherstellen, zum Beispiel nach einer Neuinstallation oder auf einem weiteren Gerät, wenn dort dasselbe Google-Konto verwendet wird, mit dem du gekauft hast und Google Play dies zulässt.
+
+## 5. Widerrufsrecht und Erstattungen
+
+Als Verbraucher hast du beim Kauf grundsätzlich ein gesetzliches Widerrufsrecht. Da der Kauf über Google Play abgeschlossen wird, informiert dich Google im Kaufvorgang über dein Widerrufsrecht und wickelt einen Widerruf ab. Ob und wann das Widerrufsrecht bei digitalen Inhalten vorzeitig erlischt, richtet sich nach den gesetzlichen Voraussetzungen; LastDone selbst holt dafür keine Erklärungen von dir ein.
+
+Davon unabhängig kannst du bei Google nach den Erstattungsrichtlinien von Google Play eine Erstattung beantragen. Deine gesetzlichen Rechte bleiben in jedem Fall unberührt.
+
+## 6. Nutzungsrecht
+
+SHneoDesigns räumt dir das einfache, nicht übertragbare Recht ein, LastDone für eigene Zwecke auf deinen Geräten zu nutzen, im Umfang der Bedingungen von Google Play. Nicht erlaubt ist es, die Freischaltung oder andere technische Schutzmaßnahmen zu umgehen oder die App weiterzuverbreiten. Weitergehende gesetzliche Befugnisse, zum Beispiel nach §§ 69d und 69e UrhG, bleiben unberührt.
+
+## 7. Deine Daten und Backups
+
+LastDone speichert deine Einträge lokal auf deinem Gerät. SHneoDesigns hat keinen Zugriff auf diese Daten und kann sie nicht wiederherstellen. Gehen das Gerät oder die App-Daten verloren, sind die Einträge nur über ein Backup wiederherstellbar. Bitte erstelle deshalb regelmäßig Backups und bewahre sie sicher auf. Backups sind unverschlüsselt; für ihre Aufbewahrung und ihren Schutz bist du selbst verantwortlich.
+
+Einzelheiten zur Verarbeitung personenbezogener Daten findest du in der Datenschutzerklärung von LastDone.
+
+## 8. Technische Voraussetzungen und Verfügbarkeit
+
+LastDone benötigt ein Android-Gerät mit Android 7.0 oder neuer und Google Play. Für den Kauf, die Wiederherstellung eines Kaufs und Bewertungen ist eine Internetverbindung erforderlich. Die Kernfunktionen der App arbeiten lokal auf dem Gerät. Für die Verfügbarkeit von Google Play ist Google verantwortlich.
+
+## 9. Aktualisierungen
+
+SHneoDesigns stellt die Aktualisierungen, einschließlich Sicherheitsaktualisierungen, bereit, die nach den gesetzlichen Vorschriften erforderlich sind, damit LastDone vertragsgemäß bleibt, und zwar für den Zeitraum, den du nach den gesetzlichen Vorschriften erwarten kannst. Aktualisierungen werden über Google Play bereitgestellt; du entscheidest, ob und wann du sie installierst. Installierst du eine erforderliche Aktualisierung nicht innerhalb einer angemessenen Frist, obwohl du über sie und die Folgen informiert wurdest, haftest du nach den gesetzlichen Vorschriften nicht für einen Mangel, der allein darauf beruht. Änderungen der App, die über die Erhaltung der Vertragsmäßigkeit hinausgehen, erfolgen nur im gesetzlich zulässigen Rahmen.
+
+## 10. Rechte bei Mängeln
+
+Es gelten die gesetzlichen Rechte bei Mängeln, für digitale Produkte insbesondere die Vorschriften der §§ 327 ff. BGB. Sie richten sich gegen deinen jeweiligen Vertragspartner. Bei Problemen mit der App kannst du dich jederzeit an support@shneo.app wenden.
+
+## 11. Haftung
+
+SHneoDesigns haftet unbeschränkt bei Vorsatz und grober Fahrlässigkeit, bei der Verletzung des Lebens, des Körpers oder der Gesundheit, nach dem Produkthaftungsgesetz, im Rahmen einer übernommenen Garantie sowie in allen anderen Fällen einer gesetzlich zwingenden Haftung.
+
+Bei leichter Fahrlässigkeit haftet SHneoDesigns nur für die Verletzung einer Pflicht, deren Erfüllung die ordnungsgemäße Nutzung der App überhaupt erst ermöglicht und auf deren Einhaltung du regelmäßig vertrauen darfst (wesentliche Vertragspflicht), und zwar begrenzt auf den bei Vertragsschluss vorhersehbaren, typischerweise eintretenden Schaden. Im Übrigen ist die Haftung für leichte Fahrlässigkeit ausgeschlossen.
+
+Diese Regeln gelten auch für die persönliche Haftung von Erfüllungsgehilfen. Zwingende Verbraucherrechte bleiben unberührt.
+
+## 12. Ende der Nutzung
+
+Du kannst die Nutzung jederzeit beenden, indem du LastDone deinstallierst. Deine lokalen Daten werden dabei von Android gelöscht, sofern du kein Backup erstellt hast. Ein Kauf bleibt bei Google Play gespeichert.
+
+## 13. Anwendbares Recht und Gerichtsstand
+
+Es gilt das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts. Bist du Verbraucher mit gewöhnlichem Aufenthalt in einem anderen Staat, bleibt dir der Schutz durch die zwingenden Vorschriften dieses Staates erhalten. Gesetzliche Gerichtsstände, insbesondere für Verbraucher, bleiben unberührt.
+
+## 14. Änderungen dieser Bedingungen
+
+SHneoDesigns kann diese Nutzungsbedingungen für künftige Versionen der App anpassen, zum Beispiel bei neuen Funktionen oder geänderter Rechtslage. Die jeweils aktuelle Fassung findest du in der App und unter https://shneo.app/apps/lastdone/terms/. Bereits erworbene Rechte, insbesondere die dauerhafte Freischaltung, werden dadurch nicht eingeschränkt.
+
+## 15. Kontakt
+
+Bei Fragen erreichst du uns unter support@shneo.app.

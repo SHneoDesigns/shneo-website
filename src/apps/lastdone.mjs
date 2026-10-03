@@ -12,10 +12,11 @@ export default {
   googlePlayUrl: null,
   platforms: ['Android'],
   legal: {
-    // 'final' once the binding texts are in place. While 'draft', the pages
-    // show a clear "in preparation" notice and are excluded from indexing.
-    privacy: 'draft',
-    terms: 'draft',
+    // 'final': rendered from content/legal/lastdone/ – byte-identical copies
+    // of the app's assets/legal/*.txt. 'draft' shows an "in preparation"
+    // notice and keeps the page out of search engines.
+    privacy: 'final',
+    terms: 'final',
   },
 
   content: {
@@ -45,9 +46,9 @@ export default {
       modelNote: 'Den Preis zeigt Google Play in deinem Land an.',
       data: [
         'Die Kernfunktionen und deine Daten in LastDone arbeiten lokal auf deinem Gerät.',
-        'Ein Online-Zugriff wird für bestimmte Google-Play-Funktionen wie Kauf und Wiederherstellung des Kaufs benötigt sowie für Online-Funktionen, die du bewusst aufrufst (zum Beispiel das Öffnen der Store-Seite).',
+        'Für Kauf, Wiederherstellung des Kaufs und Bewertungen nutzt LastDone Google Play; dafür sind Google-Dienste und eine Internetverbindung nötig. Online-Inhalte wie die Store-Seite öffnen sich nur, wenn du sie aufrufst.',
         'SHneoDesigns betreibt für LastDone kein eigenes Analyse- oder Tracking-System.',
-        'Google Play Billing kann technische Diagnoseinformationen an Google übertragen.',
+        'Die in LastDone eingebundene Google-Play-Billing-Bibliothek überträgt technische Diagnoseinformationen an Google – auch ohne Kauf. Welche, steht in der Datenschutzerklärung.',
       ],
     },
     en: {
@@ -75,9 +76,9 @@ export default {
       modelNote: 'Google Play shows the price for your country.',
       data: [
         'The core features and your data in LastDone work locally on your device.',
-        'Online access is needed for certain Google Play functions such as purchasing and restoring the purchase, and for online features you deliberately open (for example the store page).',
+        'LastDone uses Google Play for purchasing, restoring the purchase and ratings; this needs Google services and an internet connection. Online content such as the store page only opens when you choose to open it.',
         'SHneoDesigns does not run its own analytics or tracking system for LastDone.',
-        'Google Play Billing may transmit technical diagnostic information to Google.',
+        'The Google Play Billing Library built into LastDone sends technical diagnostic information to Google – also without a purchase. The privacy policy lists which.',
       ],
     },
   },

@@ -1,10 +1,11 @@
 // Page builders. Each returns { route, title, description, body, noindex? }
 // for one language; build.mjs renders every page in every language.
 
-import { site, company, path } from './config.mjs';
+import { site, path } from './config.mjs';
 import { strings } from './i18n.mjs';
 import { apps } from './apps/index.mjs';
 import { esc } from './layout.mjs';
+import { renderLegal, hasLegalText } from './legal.mjs';
 
 const ARROW = '<svg class="i-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
 const CHECK = '<svg class="i-check" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>';
@@ -172,25 +173,28 @@ export function appPage(app, lang) {
   };
 }
 
+const LEGAL_FILE = { privacy: 'privacy_policy', terms: 'terms' };
+
 function appLegal(app, lang, kind) {
   const t = strings[lang];
   const base = `/apps/${app.slug}/`;
   const label = kind === 'privacy' ? t.appPrivacy : t.appTerms;
-  const isDraft = app.legal[kind] !== 'final';
+  const isDraft = app.legal[kind] !== 'final' || !hasLegalText(app.slug, LEGAL_FILE[kind], lang);
+  const text = isDraft ? null : renderLegal(app.slug, LEGAL_FILE[kind], lang);
   return {
     route: `${base}${kind}/`,
-    title: `${label} – ${app.name} | SHneoDesigns`,
+    title: `${text ? text.title : `${label} – ${app.name}`} | SHneoDesigns`,
     description: `${label} – ${app.name} (SHneoTools, SHneoDesigns).`,
     noindex: isDraft,
     draft: isDraft,
-    body: `      <div class="wrap page prose">
+    body: `      <div class="wrap page prose legal">
         ${crumbs(lang, [
           { label: t.navApps, route: '/apps/' },
           { label: app.name, route: base },
           { label, route: `${base}${kind}/` },
         ])}
-        <h1>${label} – ${esc(app.name)}</h1>
-        ${isDraft ? draftNotice(lang) : ''}
+        <h1>${text ? esc(text.title) : `${label} – ${esc(app.name)}`}</h1>
+        ${text ? text.html : draftNotice(lang)}
       </div>`,
   };
 }
@@ -256,40 +260,33 @@ export function support(lang) {
   };
 }
 
+// The imprint is the same text the apps bundle (content/legal/site/).
 export function imprint(lang) {
   const t = strings[lang];
+  const text = renderLegal('site', 'imprint', lang);
   return {
     route: '/legal/imprint/',
     title: t.imprintTitle,
     description: t.imprintDescription,
-    body: `      <div class="wrap page prose">
+    body: `      <div class="wrap page prose legal">
         ${crumbs(lang, [{ label: t.imprintHeadline, route: '/legal/imprint/' }])}
-        <h1>${t.imprintHeadline}</h1>
-        <h2>${t.imprintProvider}</h2>
-        <p>${esc(company.name)}<br>${t.imprintOwner}: ${esc(company.owner)}<br>${t.imprintForm}: ${t.imprintFormValue}</p>
-        <h2>${t.imprintAddress}</h2>
-        <address>${esc(company.street)}<br>${esc(company.postalCode)} ${esc(company.city)}<br>${esc(company.country[lang])}</address>
-        <h2>${t.imprintContact}</h2>
-        <p>${t.imprintEmail}: <a href="mailto:${company.email}">${company.email}</a><br>${t.imprintPhone}: <a href="tel:${company.phoneHref}">${esc(company.phone)}</a></p>
-        <h2>${t.imprintVat}</h2>
-        <p>${esc(company.vatId)}</p>
+        <h1>${esc(text.title)}</h1>
+        ${text.html}
       </div>`,
   };
 }
 
 export function sitePrivacy(lang) {
   const t = strings[lang];
+  const text = renderLegal('site', 'privacy', lang);
   return {
     route: '/legal/privacy/',
     title: t.sitePrivacyTitle,
     description: t.sitePrivacyDescription,
-    noindex: true,
-    draft: true,
-    body: `      <div class="wrap page prose">
+    body: `      <div class="wrap page prose legal">
         ${crumbs(lang, [{ label: t.sitePrivacyHeadline, route: '/legal/privacy/' }])}
-        <h1>${t.sitePrivacyHeadline}</h1>
-        <p>${t.sitePrivacyScope}</p>
-        ${draftNotice(lang)}
+        <h1>${esc(text.title)}</h1>
+        ${text.html}
       </div>`,
   };
 }

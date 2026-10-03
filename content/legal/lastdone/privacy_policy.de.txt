@@ -1,0 +1,104 @@
+# Datenschutzerklärung für LastDone
+
+Stand: 3. Oktober 2026
+
+Diese Datenschutzerklärung gilt für die Android-App LastDone (im Google Play Store „SHneo LastDone“) von SHneoDesigns. Sie beschreibt, welche personenbezogenen Daten bei der Nutzung der App verarbeitet werden, durch wen und zu welchem Zweck.
+
+## 1. Verantwortlicher
+
+SHneoDesigns
+Inhaber: Steven Detlef Hahn
+Clara-Zetkin-Str. 19
+04610 Meuselwitz
+Deutschland
+E-Mail: support@shneo.app
+Telefon: +49 1520 3627692
+
+## 2. Überblick
+
+- LastDone funktioniert ohne Benutzerkonto, ohne Registrierung und ohne Anmeldung.
+- Die Kernfunktionen der App und deine Einträge arbeiten lokal auf deinem Gerät. SHneoDesigns betreibt keinen Server, an den die App deine Einträge sendet, und keine eigene Cloud für Nutzerdaten.
+- SHneoDesigns setzt in LastDone keine eigenen Analyse- oder Tracking-Werkzeuge ein, zeigt keine Werbung und verwendet keine Werbe-ID.
+- Für Kauf, Wiederherstellung des Kaufs und Bewertungen nutzt LastDone Dienste von Google Play. Die dafür eingebundene Google-Play-Billing-Bibliothek überträgt außerdem automatisch technische Diagnoseinformationen an Google (Abschnitt 6).
+
+## 3. Daten, die nur auf deinem Gerät gespeichert werden
+
+Folgende Daten speichert LastDone im privaten Speicher der App auf deinem Gerät. Sie werden von der App nicht an SHneoDesigns übertragen:
+
+- deine Einträge: Items, Kategorien, Fälligkeiten und Erledigungen mit Datum, Notiz, Messwert und Kosten
+- deine Einstellungen, zum Beispiel Design, Sprache, Sortierung und die Erinnerungseinstellungen je Item
+- Angaben zur Testphase: den Startzeitpunkt der Testphase und den zuletzt von der App gesehenen Zeitpunkt (zwei Zeitangaben, keine Kennung)
+- die Bestätigung eines Kaufs: die Produktkennung und den Zeitpunkt der Bestätigung (keine Zahlungsdaten, kein Kaufbeleg)
+- technische Daten, die eingebundene Bibliotheken lokal ablegen, zum Beispiel die von Android geplanten Erinnerungen und eine Warteschlange der Google-Play-Billing-Bibliothek für noch nicht übertragene Diagnoseinformationen (Abschnitt 6)
+
+Die automatische Android-Sicherung in die Cloud ist für LastDone ausgeschaltet. Wenn du die App deinstallierst oder ihren Speicher in den Android-Einstellungen löschst, entfernt Android diese Daten von deinem Gerät. Ein noch bestehender Kauf bleibt bei Google Play gespeichert und kann wiederhergestellt werden.
+
+Zweck dieser Speicherung ist die Bereitstellung der App-Funktionen, die du nutzt. Da die Daten dein Gerät nicht verlassen, erhält SHneoDesigns keinen Zugriff darauf.
+
+## 4. Testphase
+
+LastDone kann nach der Installation 14 Tage lang vollständig genutzt werden. Dafür speichert die App lokal den Startzeitpunkt und den zuletzt gesehenen Zeitpunkt (Abschnitt 3). Es gibt kein Konto, keinen Server und keine Geräte-Kennung für die Testphase; SHneoDesigns erstellt keinen Geräte-Fingerabdruck. Nach Ablauf der Testphase bleiben deine Einträge vollständig erhalten.
+
+## 5. Erinnerungen
+
+Erinnerungen sind lokale Benachrichtigungen, die Android auf deinem Gerät plant und anzeigt. LastDone fragt erst dann nach der Berechtigung für Benachrichtigungen, wenn du eine Erinnerung einschaltest. Damit Erinnerungen nach einem Neustart des Geräts erhalten bleiben, darf die App beim Gerätestart ausgeführt werden. Es werden keine Push-Nachrichten verwendet und für Erinnerungen keine Daten übertragen.
+
+## 6. Kauf, Wiederherstellung und Google-Play-Billing-Diagnose
+
+Nach der Testphase wird LastDone durch einen einmaligen Kauf über Google Play dauerhaft freigeschaltet. Kauf und Wiederherstellung eines Kaufs laufen über Google Play und die in die App eingebundene Google-Play-Billing-Bibliothek (Version 8.0.0) von Google.
+
+Kauf und Wiederherstellung: Die App fragt bei Google Play den Status des Kaufs ab, startet auf deinen Wunsch den Kaufdialog von Google Play und bestätigt einen Kauf gegenüber Google Play. Dabei verarbeitet die App die von Google Play gelieferten Kauf- und Produktinformationen (zum Beispiel Produktkennung, Kaufstatus und Kauf-Token), soweit sie für die Freischaltung erforderlich sind. Die Zahlung wickelt Google ab. Zahlungsdaten wie Kreditkarten- oder Kontonummern gibst du nur bei Google ein; SHneoDesigns erhält sie nicht.
+
+Automatische Diagnose: Bei einer technischen Prüfung des Release-Kandidaten wurde festgestellt, dass die Google-Play-Billing-Bibliothek schon beim Start ihrer Verbindung zu Google Play – also auch ohne Kauf – technische Diagnoseinformationen erzeugt, kurz auf dem Gerät zwischenspeichert und an Google überträgt (an den Google-Dienst firebaselogging.googleapis.com, Quelle „PLAY_BILLING_LIBRARY“). Beobachtet wurden insbesondere:
+
+- Version der Billing-Bibliothek, Paketname und Version der App
+- eine technische Sitzungskennung der Bibliothek
+- Android-Version beziehungsweise API-Stufe
+- Land, Sprache und Zeitzone
+- Mobilfunknetz-Kennung (MCC/MNC) und Art der Netzwerkverbindung
+- Hersteller, Modell, Geräte-, Produkt- und Hardwarebezeichnung, Android-Build-Informationen und Build-Fingerprint
+- technische Status- und Fehlerinformationen der Billing-Verbindung
+
+Bei jeder Verbindung ist für den Empfänger technisch außerdem die IP-Adresse deines Geräts sichtbar.
+
+Diese Übertragung erfolgt durch die Bibliothek von Google direkt an Google. SHneoDesigns erhält diese Diagnoseinformationen nicht und nutzt sie nicht. Google verarbeitet sie nach eigenen Bestimmungen; wie lange Google sie speichert, legt Google fest. Informationen dazu findest du in der Datenschutzerklärung von Google: https://policies.google.com/privacy
+
+Rechtsgrundlage für die Einbindung von Google Play Billing ist Art. 6 Abs. 1 lit. b DSGVO, soweit es um den Kauf und dessen Wiederherstellung geht, und im Übrigen Art. 6 Abs. 1 lit. f DSGVO. Das berechtigte Interesse von SHneoDesigns liegt darin, Kauf und Wiederherstellung über die offizielle und von Google Play vorgesehene Schnittstelle anzubieten.
+
+## 7. Bewertungen über Google Play
+
+LastDone nutzt den Bewertungsdialog von Google Play („In-App Review“). Die App bittet höchstens einmal pro Installation automatisch um eine Bewertung, frühestens nach fünf Kalendertagen seit Beginn der Testphase und nach mindestens fünf Erledigungen, und nur direkt nach einer erfolgreichen Erledigung. Ob der Dialog tatsächlich erscheint, entscheidet Google. Über „LastDone bewerten“ kannst du außerdem jederzeit selbst die Seite von LastDone bei Google Play öffnen.
+
+Die Bewertung gibst du direkt bei Google ab; sie wird von Google verarbeitet. LastDone erfährt nicht, ob du bewertet hast, wie viele Sterne du vergeben hast oder was du geschrieben hast. Für Bewertungen gibt es keine Belohnung, und LastDone fragt vorher nicht ab, ob dir die App gefällt.
+
+## 8. Backups
+
+Ein Backup entsteht nur, wenn du es selbst startest. Den Speicherort wählst du über die Dateiauswahl von Android. Das Backup ist eine unverschlüsselte JSON-Datei mit deinen Einträgen, deinen Einstellungen und den Zeitangaben der Testphase. Eine SHA-256-Prüfsumme dient nur dazu, beschädigte Dateien zu erkennen; sie ist weder eine Verschlüsselung noch eine digitale Signatur. Das Backup wird nicht an SHneoDesigns übertragen. Wählst du einen Speicherort eines anderen Anbieters (zum Beispiel einen Cloud-Speicher), gelten dessen Bedingungen. Für die sichere Aufbewahrung des Backups bist du selbst verantwortlich.
+
+## 9. Links und Online-Inhalte
+
+Öffnest du aus LastDone heraus die Seite der App bei Google Play oder die Online-Fassung dieser Datenschutzerklärung, wird diese in der Google-Play-App beziehungsweise in deinem Browser geöffnet. Dabei gelten die Datenschutzbestimmungen von Google beziehungsweise die Datenschutzerklärung der Website https://shneo.app/legal/privacy/
+
+## 10. Support per E-Mail
+
+Wenn du uns an support@shneo.app schreibst, verarbeiten wir die Daten, die du uns dabei übermittelst, zum Beispiel deine E-Mail-Adresse, deinen Namen (falls angegeben), den Inhalt deiner Nachricht, Anhänge und technische Angaben, die du freiwillig mitsendest. Wir verwenden diese Daten nur, um deine Anfrage zu bearbeiten. Bitte sende uns keine Passwörter, Zahlungsdaten oder andere vertrauliche Daten.
+
+Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, soweit deine Anfrage einen Vertrag oder dessen Anbahnung betrifft, und im Übrigen Art. 6 Abs. 1 lit. f DSGVO (unser berechtigtes Interesse, Anfragen zu beantworten). Wir speichern die Daten, solange es für die Bearbeitung deiner Anfrage erforderlich ist; gesetzliche Aufbewahrungspflichten bleiben unberührt.
+
+Unser E-Mail-Postfach wird von Zoho Corporation B.V., Beneluxlaan 4B, 3527 HT Utrecht, Niederlande, als Auftragsverarbeiter betrieben. Informationen zum Datenschutz bei Zoho: https://www.zoho.com/privacy.html
+
+## 11. Keine weitergehende Verarbeitung
+
+SHneoDesigns verkauft keine Daten, betreibt kein Profiling und trifft keine automatisierten Entscheidungen im Sinne von Art. 22 DSGVO. LastDone verlangt keinen Zugriff auf Standort, Kontakte, Kamera oder Mikrofon.
+
+## 12. Deine Rechte
+
+Soweit SHneoDesigns personenbezogene Daten von dir verarbeitet (zum Beispiel bei einer Support-Anfrage), hast du nach der DSGVO das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und das Recht, einer Verarbeitung auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO aus Gründen, die sich aus deiner besonderen Situation ergeben, zu widersprechen (Art. 21). Wende dich dafür an support@shneo.app.
+
+Daten, die nur auf deinem Gerät gespeichert sind, kannst du selbst jederzeit in der App ändern oder durch Deinstallation der App löschen. Für Daten, die Google verarbeitet, wende dich bitte an Google.
+
+Du hast außerdem das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren. Für SHneoDesigns zuständig ist: Thüringer Landesbeauftragter für den Datenschutz und die Informationsfreiheit, Häßlerstraße 8, 99096 Erfurt, https://www.tlfdi.de
+
+## 13. Änderungen
+
+Wenn sich die App oder die Rechtslage ändert, passen wir diese Datenschutzerklärung an. Die jeweils aktuelle Fassung findest du in der App und unter https://shneo.app/apps/lastdone/privacy/

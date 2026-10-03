@@ -1,0 +1,77 @@
+# Terms of use for LastDone
+
+Last updated: 3 October 2026
+
+## 1. Provider and scope
+
+These terms of use govern the use of the Android app LastDone (listed on Google Play as "SHneo LastDone"). The provider of the app is SHneoDesigns, owner Steven Detlef Hahn, Clara-Zetkin-Str. 19, 04610 Meuselwitz, Germany, e-mail: support@shneo.app.
+
+LastDone is distributed through Google Play. The Google Play Terms of Service also apply to downloading the app and to buying the permanent unlock. Under those terms, the purchase contract is concluded with Google; according to Google, for users in the European Economic Area this is Google Commerce Limited, Dublin, Ireland.
+
+## 2. Description of the service
+
+LastDone helps you manage things and tasks with due dates, record completions and receive local reminders. Your entries are stored locally on your device. No account or registration with SHneoDesigns is required.
+
+## 3. Free download and trial
+
+Downloading LastDone is free. From the first start, you can use LastDone free of charge with all features for 14 days. The trial ends automatically; no payment obligation arises afterwards and no paid subscription begins.
+
+When the trial has ended, use of the app is locked until you unlock LastDone with a one-time purchase or restore an earlier purchase. All your entries are kept. The privacy policy, the legal notice, these terms of use and the contact to support remain available while the app is locked.
+
+## 4. One-time purchase and payment
+
+The purchase unlocks LastDone permanently. It is a one-time purchase, not a subscription, and it does not renew automatically. The price is shown to you in the Google Play purchase dialog before you buy. Google handles the payment; SHneoDesigns does not receive any payment details.
+
+You can restore a purchase with "Restore purchase", for example after reinstalling the app or on another device, if the same Google account you bought with is used there and Google Play allows it.
+
+## 5. Right of withdrawal and refunds
+
+As a consumer, you generally have a statutory right of withdrawal when you make a purchase. As the purchase is concluded through Google Play, Google informs you about your right of withdrawal during the purchase and handles a withdrawal. Whether and when the right of withdrawal for digital content expires early is determined by the statutory requirements; LastDone itself does not ask you for any declarations for this.
+
+Independently of this, you can request a refund from Google under the Google Play refund policies. Your statutory rights remain unaffected in every case.
+
+## 6. Licence
+
+SHneoDesigns grants you the simple, non-transferable right to use LastDone for your own purposes on your devices, within the scope of the Google Play terms. You may not circumvent the unlock or other technical protection measures or redistribute the app. Further rights granted by law, for example under §§ 69d and 69e of the German Copyright Act (UrhG), remain unaffected.
+
+## 7. Your data and backups
+
+LastDone stores your entries locally on your device. SHneoDesigns has no access to this data and cannot restore it. If the device or the app data is lost, the entries can only be restored from a backup. Please create backups regularly and keep them safe. Backups are not encrypted; you are responsible for storing and protecting them.
+
+Details on the processing of personal data are given in the LastDone privacy policy.
+
+## 8. Technical requirements and availability
+
+LastDone requires an Android device with Android 7.0 or later and Google Play. An internet connection is required for purchasing, restoring a purchase and ratings. The core features of the app work locally on the device. Google is responsible for the availability of Google Play.
+
+## 9. Updates
+
+SHneoDesigns provides the updates, including security updates, that are required by law to keep LastDone in conformity with the contract, for the period you can expect under the statutory provisions. Updates are provided through Google Play; you decide whether and when to install them. If you do not install a required update within a reasonable time although you were informed about it and its consequences, you are not entitled, under the statutory provisions, to remedies for a defect resulting solely from this. Changes to the app beyond maintaining conformity are only made within the limits permitted by law.
+
+## 10. Rights in case of defects
+
+The statutory rights in case of defects apply, for digital products in particular §§ 327 et seq. of the German Civil Code (BGB) or the corresponding provisions of the law applicable to you. They are directed against your respective contractual partner. If you have problems with the app, you can contact support@shneo.app at any time.
+
+## 11. Liability
+
+SHneoDesigns is liable without limitation for intent and gross negligence, for injury to life, body or health, under the German Product Liability Act, within the scope of a guarantee given, and in all other cases of mandatory statutory liability.
+
+In the case of slight negligence, SHneoDesigns is only liable for the breach of an obligation whose fulfilment makes the proper use of the app possible in the first place and on whose observance you may regularly rely (essential contractual obligation), limited to the damage that was foreseeable and typical when the contract was concluded. Otherwise, liability for slight negligence is excluded.
+
+These rules also apply to the personal liability of vicarious agents. Mandatory consumer rights remain unaffected.
+
+## 12. End of use
+
+You can stop using LastDone at any time by uninstalling it. Android then deletes your local data unless you have created a backup. A purchase remains recorded with Google Play.
+
+## 13. Applicable law and place of jurisdiction
+
+The law of the Federal Republic of Germany applies, excluding the UN Convention on Contracts for the International Sale of Goods. If you are a consumer whose habitual residence is in another country, you keep the protection of the mandatory provisions of that country. Statutory places of jurisdiction, in particular for consumers, remain unaffected.
+
+## 14. Changes to these terms
+
+SHneoDesigns may adapt these terms of use for future versions of the app, for example for new features or changes in the law. The current version is available in the app and at https://shneo.app/en/apps/lastdone/terms/. Rights already acquired, in particular the permanent unlock, are not restricted by this.
+
+## 15. Contact
+
+If you have any questions, please contact us at support@shneo.app.

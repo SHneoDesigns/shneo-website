@@ -1,0 +1,63 @@
+# Datenschutzerklärung der Website
+
+Stand: 3. Oktober 2026
+
+Diese Datenschutzerklärung gilt für die Website https://shneo.app von SHneoDesigns. Für die einzelnen Apps gelten eigene Datenschutzerklärungen, die du auf der jeweiligen App-Seite findest, zum Beispiel für LastDone unter https://shneo.app/apps/lastdone/privacy/
+
+## 1. Verantwortlicher
+
+SHneoDesigns
+Inhaber: Steven Detlef Hahn
+Clara-Zetkin-Str. 19
+04610 Meuselwitz
+Deutschland
+E-Mail: support@shneo.app
+Telefon: +49 1520 3627692
+
+## 2. Überblick
+
+Die Website ist eine statische Informationsseite. Sie hat keine Benutzerkonten, keine Kontaktformulare, keine Kommentarfunktion und keinen Newsletter. Sie verwendet keine Cookies, keine Analyse- oder Tracking-Werkzeuge (zum Beispiel kein Google Analytics und kein Meta Pixel), keine Werbung, keine Social-Media-Plugins, keine extern geladenen Schriftarten und keine Skripte oder Inhalte von anderen Servern. Alle Dateien der Website werden über https://shneo.app ausgeliefert.
+
+Trotzdem werden beim Besuch der Website personenbezogene Daten verarbeitet, weil dein Browser dafür technisch mit dem Server des Hosting-Anbieters verbunden wird (Abschnitt 3).
+
+## 3. Hosting über GitHub Pages
+
+Die Website wird über den Dienst GitHub Pages bereitgestellt. Anbieter ist GitHub; für Nutzer im Europäischen Wirtschaftsraum ist nach Angaben von GitHub die GitHub B.V., Prins Bernhardplein 200, 1097 JB Amsterdam, Niederlande, zuständig. Die Website wird verschlüsselt über HTTPS ausgeliefert.
+
+Wenn du die Website aufrufst, verarbeitet GitHub die für die Verbindung technisch notwendigen Daten. Dazu gehören insbesondere deine IP-Adresse sowie Angaben zur Anfrage, etwa die aufgerufene Adresse, Datum und Uhrzeit und die von deinem Browser übermittelten technischen Angaben. GitHub gibt an, die IP-Adresse von Besucherinnen und Besuchern einer GitHub-Pages-Website aus Sicherheitsgründen zu protokollieren und zu speichern. Eine konkrete Speicherdauer für diese Daten nennt GitHub nicht; sie richtet sich nach den Angaben von GitHub. SHneoDesigns wertet diese Daten nicht aus und erhält keine Besucherstatistiken.
+
+GitHub kann Daten auch in den USA verarbeiten. GitHub stützt solche Übermittlungen nach eigenen Angaben auf das EU-U.S. Data Privacy Framework und auf Standardvertragsklauseln der Europäischen Kommission.
+
+Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse liegt darin, die Website sicher, zuverlässig und ohne eigenen Serverbetrieb bereitzustellen.
+
+Weitere Informationen: Datenschutzerklärung von GitHub, https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
+
+## 4. Speicherung der Design-Auswahl in deinem Browser
+
+Die Website passt sich automatisch an die helle oder dunkle Darstellung deines Geräts an; dafür wird nichts gespeichert. Nur wenn du selbst auf den Schalter für das Farbschema klickst, speichert die Website deine Auswahl („hell“ oder „dunkel“) unter dem Namen „theme“ im lokalen Speicher deines Browsers (Local Storage), damit sie beim nächsten Seitenaufruf erhalten bleibt.
+
+Diese Angabe bleibt auf deinem Gerät und wird nicht an SHneoDesigns oder an Dritte übertragen. Es ist kein Cookie und keine Kennung. Du kannst sie jederzeit über die Einstellungen deines Browsers löschen (Websitedaten von shneo.app löschen).
+
+Die Speicherung erfolgt nur auf deinen ausdrücklichen Wunsch und ist für die von dir gewünschte Funktion – die gewählte Darstellung beizubehalten – erforderlich (§ 25 Abs. 2 Nr. 2 TDDDG). Eine weitergehende Verarbeitung findet nicht statt.
+
+## 5. Kontakt per E-Mail
+
+Wenn du uns an support@shneo.app schreibst, verarbeiten wir die Daten, die du uns dabei übermittelst, zum Beispiel deine E-Mail-Adresse, deinen Namen (falls angegeben), den Inhalt deiner Nachricht, Anhänge und technische Angaben, die du freiwillig mitsendest. Wir verwenden diese Daten nur, um deine Anfrage zu bearbeiten. Bitte sende uns keine Passwörter, Zahlungsdaten oder andere vertrauliche Daten.
+
+Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, soweit deine Anfrage einen Vertrag oder dessen Anbahnung betrifft, und im Übrigen Art. 6 Abs. 1 lit. f DSGVO (unser berechtigtes Interesse, Anfragen zu beantworten). Wir speichern die Daten, solange es für die Bearbeitung deiner Anfrage erforderlich ist; gesetzliche Aufbewahrungspflichten bleiben unberührt.
+
+Unser E-Mail-Postfach wird von Zoho Corporation B.V., Beneluxlaan 4B, 3527 HT Utrecht, Niederlande, als Auftragsverarbeiter betrieben. Informationen zum Datenschutz bei Zoho: https://www.zoho.com/privacy.html
+
+## 6. Links zu anderen Websites
+
+Die Website enthält Links zu anderen Angeboten, zum Beispiel zu Google Play oder zu Datenschutzhinweisen anderer Anbieter. Diese Inhalte werden erst geladen, wenn du einen Link anklickst. Für sie gelten die Datenschutzbestimmungen des jeweiligen Anbieters.
+
+## 7. Deine Rechte
+
+Soweit SHneoDesigns personenbezogene Daten von dir verarbeitet, hast du nach der DSGVO das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und das Recht, einer Verarbeitung auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO aus Gründen, die sich aus deiner besonderen Situation ergeben, zu widersprechen (Art. 21). Wende dich dafür an support@shneo.app.
+
+Du hast außerdem das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren. Für SHneoDesigns zuständig ist: Thüringer Landesbeauftragter für den Datenschutz und die Informationsfreiheit, Häßlerstraße 8, 99096 Erfurt, https://www.tlfdi.de
+
+## 8. Änderungen
+
+Wenn sich die Website oder die Rechtslage ändert, passen wir diese Datenschutzerklärung an. Es gilt die jeweils hier veröffentlichte Fassung.
