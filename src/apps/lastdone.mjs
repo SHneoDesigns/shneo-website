@@ -48,7 +48,7 @@ export default {
         'Die Kernfunktionen und deine Daten in LastDone arbeiten lokal auf deinem Gerät.',
         'Für Kauf, Wiederherstellung des Kaufs und Bewertungen nutzt LastDone Google Play; dafür sind Google-Dienste und eine Internetverbindung nötig. Online-Inhalte wie die Store-Seite öffnen sich nur, wenn du sie aufrufst.',
         'SHneoDesigns betreibt für LastDone kein eigenes Analyse- oder Tracking-System.',
-        'Die in LastDone eingebundene Google-Play-Billing-Bibliothek überträgt technische Diagnoseinformationen an Google – auch ohne Kauf. Welche, steht in der Datenschutzerklärung.',
+        'Sobald LastDone mit Google Play Billing verbunden ist – nach einem Tipp auf Freischalten oder Kauf wiederherstellen bzw. zum Abgleich eines bereits getätigten Kaufs –, überträgt die eingebundene Billing-Bibliothek technische Diagnoseinformationen an Google. Allein das Starten und Nutzen der App während der Testphase verbindet Google Play Billing nicht. Details: Datenschutzerklärung.',
       ],
     },
     en: {
@@ -78,7 +78,7 @@ export default {
         'The core features and your data in LastDone work locally on your device.',
         'LastDone uses Google Play for purchasing, restoring the purchase and ratings; this needs Google services and an internet connection. Online content such as the store page only opens when you choose to open it.',
         'SHneoDesigns does not run its own analytics or tracking system for LastDone.',
-        'The Google Play Billing Library built into LastDone sends technical diagnostic information to Google – also without a purchase. The privacy policy lists which.',
+        'Once LastDone is connected to Google Play Billing – after a tap on unlock or restore purchase, or to match an existing purchase –, the built-in Billing Library sends technical diagnostic information to Google. Starting and using the app during the trial does not by itself connect Google Play Billing. Details: privacy policy.',
       ],
     },
   },

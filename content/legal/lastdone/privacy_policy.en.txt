@@ -19,7 +19,7 @@ Phone: +49 1520 3627692
 - LastDone works without a user account, without registration and without signing in.
 - The core features of the app and your entries work locally on your device. SHneoDesigns runs no server to which the app sends your entries and no cloud of its own for user data.
 - SHneoDesigns uses no analytics or tracking tools of its own in LastDone, shows no ads and does not use an advertising ID.
-- For purchasing, restoring the purchase and ratings, LastDone uses Google Play services. The Google Play Billing Library built into the app also automatically sends technical diagnostic information to Google (section 6).
+- For purchasing, restoring the purchase and ratings, LastDone uses Google Play services. As soon as the app is connected to Google Play Billing, the Google Play Billing Library built into the app sends technical diagnostic information to Google (section 6). During the trial, LastDone connects to Google Play Billing only when you tap "Unlock LastDone permanently" or "Restore purchase".
 
 ## 3. Data stored only on your device
 
@@ -28,7 +28,7 @@ LastDone stores the following data in the app's private storage on your device. 
 - your entries: items, categories, due dates and completions with date, note, measurement and cost
 - your settings, for example theme, language, sorting and the reminder settings of each item
 - trial information: the time the trial started and the latest time the app has seen (two points in time, no identifier)
-- the confirmation of a purchase: the product ID and the time of confirmation (no payment details, no receipt)
+- the confirmation of a purchase: the product ID and the time of confirmation (no payment details, no receipt), and, while a purchase you started has not been completed (for example with a pending payment), an empty marker file without any further information
 - technical data stored locally by built-in libraries, for example the reminders scheduled by Android and a queue of the Google Play Billing Library for diagnostic information that has not been sent yet (section 6)
 
 Android's automatic cloud backup is switched off for LastDone. If you uninstall the app or clear its storage in the Android settings, Android removes this data from your device. An existing purchase remains recorded with Google Play and can be restored.
@@ -47,9 +47,11 @@ Reminders are local notifications that Android schedules and shows on your devic
 
 After the trial, LastDone is unlocked permanently with a one-time purchase through Google Play. Purchasing and restoring a purchase work through Google Play and the Google Play Billing Library (version 8.0.0) by Google that is built into the app.
 
+When LastDone connects to Google Play Billing: only when you tap "Unlock LastDone permanently" or "Restore purchase". If a purchase is already confirmed on your device or a purchase you started has not been completed yet, the app also connects at start to match the purchase status with Google Play or to complete the purchase. Starting and using the app during the trial does not by itself create a connection to Google Play Billing. After reinstalling, you restore an earlier purchase with "Restore purchase".
+
 Purchase and restore: the app asks Google Play for the status of the purchase, starts the Google Play purchase dialog when you choose to buy, and confirms a purchase to Google Play. In doing so, the app processes the purchase and product information provided by Google Play (for example product ID, purchase state and purchase token) as far as needed for unlocking. Google handles the payment. You enter payment details such as card or account numbers only with Google; SHneoDesigns does not receive them.
 
-Automatic diagnostics: a technical review of the release candidate found that the Google Play Billing Library creates technical diagnostic information as soon as it connects to Google Play – that is, also without a purchase – briefly stores it on the device and sends it to Google (to the Google service firebaselogging.googleapis.com, source "PLAY_BILLING_LIBRARY"). Observed were in particular:
+Automatic diagnostics: a technical review of the release candidate found that the Google Play Billing Library creates technical diagnostic information as soon as it is connected to Google Play – also if no purchase follows – briefly stores it on the device and sends it to Google (to the Google service firebaselogging.googleapis.com, source "PLAY_BILLING_LIBRARY"). Observed were in particular:
 
 - Billing Library version, package name and version of the app
 - a technical session identifier of the library

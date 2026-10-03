@@ -19,7 +19,7 @@ Telefon: +49 1520 3627692
 - LastDone funktioniert ohne Benutzerkonto, ohne Registrierung und ohne Anmeldung.
 - Die Kernfunktionen der App und deine Einträge arbeiten lokal auf deinem Gerät. SHneoDesigns betreibt keinen Server, an den die App deine Einträge sendet, und keine eigene Cloud für Nutzerdaten.
 - SHneoDesigns setzt in LastDone keine eigenen Analyse- oder Tracking-Werkzeuge ein, zeigt keine Werbung und verwendet keine Werbe-ID.
-- Für Kauf, Wiederherstellung des Kaufs und Bewertungen nutzt LastDone Dienste von Google Play. Die dafür eingebundene Google-Play-Billing-Bibliothek überträgt außerdem automatisch technische Diagnoseinformationen an Google (Abschnitt 6).
+- Für Kauf, Wiederherstellung des Kaufs und Bewertungen nutzt LastDone Dienste von Google Play. Sobald die App mit Google Play Billing verbunden ist, überträgt die dafür eingebundene Google-Play-Billing-Bibliothek technische Diagnoseinformationen an Google (Abschnitt 6). Während der Testphase verbindet sich LastDone erst mit Google Play Billing, wenn du „LastDone dauerhaft freischalten“ oder „Kauf wiederherstellen“ antippst.
 
 ## 3. Daten, die nur auf deinem Gerät gespeichert werden
 
@@ -28,7 +28,7 @@ Folgende Daten speichert LastDone im privaten Speicher der App auf deinem Gerät
 - deine Einträge: Items, Kategorien, Fälligkeiten und Erledigungen mit Datum, Notiz, Messwert und Kosten
 - deine Einstellungen, zum Beispiel Design, Sprache, Sortierung und die Erinnerungseinstellungen je Item
 - Angaben zur Testphase: den Startzeitpunkt der Testphase und den zuletzt von der App gesehenen Zeitpunkt (zwei Zeitangaben, keine Kennung)
-- die Bestätigung eines Kaufs: die Produktkennung und den Zeitpunkt der Bestätigung (keine Zahlungsdaten, kein Kaufbeleg)
+- die Bestätigung eines Kaufs: die Produktkennung und den Zeitpunkt der Bestätigung (keine Zahlungsdaten, kein Kaufbeleg), und solange ein von dir begonnener Kauf noch nicht abgeschlossen ist (zum Beispiel bei einer ausstehenden Zahlung), eine leere Markierungsdatei ohne weitere Angaben
 - technische Daten, die eingebundene Bibliotheken lokal ablegen, zum Beispiel die von Android geplanten Erinnerungen und eine Warteschlange der Google-Play-Billing-Bibliothek für noch nicht übertragene Diagnoseinformationen (Abschnitt 6)
 
 Die automatische Android-Sicherung in die Cloud ist für LastDone ausgeschaltet. Wenn du die App deinstallierst oder ihren Speicher in den Android-Einstellungen löschst, entfernt Android diese Daten von deinem Gerät. Ein noch bestehender Kauf bleibt bei Google Play gespeichert und kann wiederhergestellt werden.
@@ -47,9 +47,11 @@ Erinnerungen sind lokale Benachrichtigungen, die Android auf deinem Gerät plant
 
 Nach der Testphase wird LastDone durch einen einmaligen Kauf über Google Play dauerhaft freigeschaltet. Kauf und Wiederherstellung eines Kaufs laufen über Google Play und die in die App eingebundene Google-Play-Billing-Bibliothek (Version 8.0.0) von Google.
 
+Wann LastDone Google Play Billing verbindet: erst, wenn du „LastDone dauerhaft freischalten“ oder „Kauf wiederherstellen“ antippst. Ist ein Kauf auf deinem Gerät bereits bestätigt oder ein von dir begonnener Kauf noch nicht abgeschlossen, verbindet sich die App auch beim Start, um den Kaufstatus mit Google Play abzugleichen beziehungsweise den Kauf abzuschließen. Allein durch das Starten und Nutzen der App während der Testphase entsteht keine Verbindung zu Google Play Billing. Nach einer Neuinstallation stellst du einen früheren Kauf über „Kauf wiederherstellen“ wieder her.
+
 Kauf und Wiederherstellung: Die App fragt bei Google Play den Status des Kaufs ab, startet auf deinen Wunsch den Kaufdialog von Google Play und bestätigt einen Kauf gegenüber Google Play. Dabei verarbeitet die App die von Google Play gelieferten Kauf- und Produktinformationen (zum Beispiel Produktkennung, Kaufstatus und Kauf-Token), soweit sie für die Freischaltung erforderlich sind. Die Zahlung wickelt Google ab. Zahlungsdaten wie Kreditkarten- oder Kontonummern gibst du nur bei Google ein; SHneoDesigns erhält sie nicht.
 
-Automatische Diagnose: Bei einer technischen Prüfung des Release-Kandidaten wurde festgestellt, dass die Google-Play-Billing-Bibliothek schon beim Start ihrer Verbindung zu Google Play – also auch ohne Kauf – technische Diagnoseinformationen erzeugt, kurz auf dem Gerät zwischenspeichert und an Google überträgt (an den Google-Dienst firebaselogging.googleapis.com, Quelle „PLAY_BILLING_LIBRARY“). Beobachtet wurden insbesondere:
+Automatische Diagnose: Bei einer technischen Prüfung des Release-Kandidaten wurde festgestellt, dass die Google-Play-Billing-Bibliothek, sobald sie mit Google Play verbunden wird – auch wenn danach kein Kauf zustande kommt –, technische Diagnoseinformationen erzeugt, kurz auf dem Gerät zwischenspeichert und an Google überträgt (an den Google-Dienst firebaselogging.googleapis.com, Quelle „PLAY_BILLING_LIBRARY“). Beobachtet wurden insbesondere:
 
 - Version der Billing-Bibliothek, Paketname und Version der App
 - eine technische Sitzungskennung der Bibliothek
