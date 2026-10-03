@@ -15,8 +15,10 @@ const ICON_SUN =
 const ICON_MOON =
   '<svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7Z"/></svg>';
 
+// The official SHneoDesigns logo (unchanged file, transparent 2172×724);
+// .logo-img shows only the area of the logo (CSS, see site.css).
 function logo() {
-  return `<span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><rect width="32" height="32" rx="8"/><text x="16" y="21.5" text-anchor="middle">SH</text></svg></span><span class="logo-text">SHneo<span>Designs</span></span>`;
+  return `<span class="logo-img"><img src="/assets/shneodesigns-logo.png" width="2172" height="724" alt="${site.brand}" decoding="async"></span>`;
 }
 
 /**

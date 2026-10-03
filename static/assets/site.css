@@ -200,21 +200,24 @@ a:hover {
 .logo:hover {
   color: var(--text);
 }
-.logo-mark svg {
-  width: 34px;
-  height: 34px;
+/* The official logo file is 2172×724 with transparent margins; the logo
+   itself lies at x 56–2119, y 135–619 (frame x 52–2123, y 131–622). The
+   frame has that aspect ratio and shows only this area – the file stays
+   unchanged. */
+.logo-img {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 170px;
+  aspect-ratio: 2072 / 492;
 }
-.logo-mark rect {
-  fill: var(--brand);
-}
-.logo-mark text {
-  fill: var(--on-brand);
-  font: 800 13px var(--font);
-  letter-spacing: -0.5px;
-}
-.logo-text span {
-  color: var(--muted);
-  font-weight: 600;
+.logo-img img {
+  position: absolute;
+  max-width: none;
+  width: 104.8263%; /* 2172 / 2072 */
+  height: auto;
+  left: -2.5097%; /* 52 / 2072 */
+  top: -26.626%; /* 131 / 492 */
 }
 .nav {
   display: flex;
@@ -773,6 +776,9 @@ a:hover {
 .logo-footer {
   margin-bottom: 12px;
 }
+.logo-footer .logo-img {
+  width: 140px;
+}
 .footer-base {
   margin-top: 36px;
   padding-top: 20px;
@@ -795,8 +801,8 @@ a:hover {
     gap: 8px 12px;
     padding-block: 10px;
   }
-  .logo-text {
-    font-size: 1rem;
+  .logo-img {
+    width: 140px;
   }
   .tools {
     margin-left: auto;
