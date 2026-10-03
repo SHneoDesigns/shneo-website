@@ -1,5 +1,6 @@
-// Verifies that the legal texts published here are byte-identical to the
-// texts bundled in the apps. Run locally next to the SHneoTools repository:
+// Verifies that the legal texts published here are identical (line endings
+// normalised) to the texts bundled in the apps. Run locally next to the
+// SHneoTools repository:
 //   node tools/check-legal-sync.mjs [path to SHneoTools]   (default C:/dev/SHneoTools)
 import { readFileSync, existsSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -19,9 +20,10 @@ if (!existsSync(tools)) {
   console.error(`SHneoTools not found at ${tools}`);
   process.exit(2);
 }
+const norm = (file) => readFileSync(file, 'utf8').replace(/\r\n/g, '\n');
 let failed = 0;
 for (const [app, web] of pairs) {
-  const same = readFileSync(join(tools, app)).equals(readFileSync(join(site, web)));
+  const same = norm(join(tools, app)) === norm(join(site, web));
   console.log(`${same ? 'same     ' : 'DIFFERENT'} ${web}`);
   if (!same) failed++;
 }
