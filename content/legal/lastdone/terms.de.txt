@@ -1,6 +1,6 @@
 # Nutzungsbedingungen für LastDone
 
-Stand: 3. Oktober 2026
+Stand: 4. Oktober 2026
 
 ## 1. Anbieter und Geltungsbereich
 
@@ -36,7 +36,11 @@ SHneoDesigns räumt dir das einfache, nicht übertragbare Recht ein, LastDone f�
 
 ## 7. Deine Daten und Backups
 
-LastDone speichert deine Einträge lokal auf deinem Gerät. SHneoDesigns hat keinen Zugriff auf diese Daten und kann sie nicht wiederherstellen. Gehen das Gerät oder die App-Daten verloren, sind die Einträge nur über ein Backup wiederherstellbar. Bitte erstelle deshalb regelmäßig Backups und bewahre sie sicher auf. Backups sind unverschlüsselt; für ihre Aufbewahrung und ihren Schutz bist du selbst verantwortlich.
+LastDone speichert deine Einträge lokal auf deinem Gerät. SHneoDesigns hat keinen Zugriff auf diese Daten, besitzt keine Serverkopie davon und kann sie nicht wiederherstellen. Bei Verlust, Defekt oder Zurücksetzen des Geräts, beim Löschen der App-Daten oder bei der Deinstallation können deine Einträge verloren gehen; sie sind dann nur über ein Backup wiederherstellbar. Bitte erstelle deshalb regelmäßig Backups und bewahre sie sicher und am besten außerhalb des Geräts auf, denn bei Verlust, Defekt oder Zurücksetzen des Geräts gehen auch dort gespeicherte Backups verloren. Backups sind unverschlüsselt; für ihre Aufbewahrung und ihren Schutz bist du selbst verantwortlich.
+
+Ein Backup kannst du nach einer Neuinstallation oder auf einem anderen Android-Gerät in LastDone wiederherstellen, wenn es unbeschädigt ist und sein Datenformat von der installierten LastDone-Version unterstützt wird. Ein Backup enthält keinen Kauf: Deine Daten stellst du aus einem Backup wieder her, die dauerhafte Freischaltung über „Kauf wiederherstellen“ (Abschnitt 4). Eine Wiederherstellung verlängert die Testphase nicht und startet sie nicht neu.
+
+Weil deine Daten nur lokal gespeichert werden, lässt sich ein Datenverlust trotz der Backup-Funktion nicht vollständig ausschließen. Deine gesetzlichen Rechte nach den Abschnitten 10 und 11 bleiben davon unberührt.
 
 Einzelheiten zur Verarbeitung personenbezogener Daten findest du in der Datenschutzerklärung von LastDone.
 

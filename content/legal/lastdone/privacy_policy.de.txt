@@ -1,6 +1,6 @@
 # Datenschutzerklärung für LastDone
 
-Stand: 3. Oktober 2026
+Stand: 4. Oktober 2026
 
 Diese Datenschutzerklärung gilt für die Android-App LastDone (im Google Play Store „SHneo LastDone“) von SHneoDesigns. Sie beschreibt, welche personenbezogenen Daten bei der Nutzung der App verarbeitet werden, durch wen und zu welchem Zweck.
 
@@ -31,13 +31,13 @@ Folgende Daten speichert LastDone im privaten Speicher der App auf deinem Gerät
 - die Bestätigung eines Kaufs: die Produktkennung und den Zeitpunkt der Bestätigung (keine Zahlungsdaten, kein Kaufbeleg), und solange ein von dir begonnener Kauf noch nicht abgeschlossen ist (zum Beispiel bei einer ausstehenden Zahlung), eine leere Markierungsdatei ohne weitere Angaben
 - technische Daten, die eingebundene Bibliotheken lokal ablegen, zum Beispiel die von Android geplanten Erinnerungen und eine Warteschlange der Google-Play-Billing-Bibliothek für noch nicht übertragene Diagnoseinformationen (Abschnitt 6)
 
-Die automatische Android-Sicherung in die Cloud ist für LastDone ausgeschaltet. Wenn du die App deinstallierst oder ihren Speicher in den Android-Einstellungen löschst, entfernt Android diese Daten von deinem Gerät. Ein noch bestehender Kauf bleibt bei Google Play gespeichert und kann wiederhergestellt werden.
+Die automatische Android-Sicherung in die Cloud ist für LastDone ausgeschaltet. Wenn du die App deinstallierst oder ihren Speicher in den Android-Einstellungen löschst, entfernt Android diese Daten von deinem Gerät. Auch bei Verlust, Defekt oder Zurücksetzen des Geräts gehen sie verloren. SHneoDesigns besitzt keine Kopie dieser Daten und kann sie ohne ein von dir erstelltes Backup nicht wiederherstellen (Abschnitt 8). Ein noch bestehender Kauf bleibt bei Google Play gespeichert und kann wiederhergestellt werden.
 
 Zweck dieser Speicherung ist die Bereitstellung der App-Funktionen, die du nutzt. Da die Daten dein Gerät nicht verlassen, erhält SHneoDesigns keinen Zugriff darauf.
 
 ## 4. Testphase
 
-LastDone kann nach der Installation 14 Tage lang vollständig genutzt werden. Dafür speichert die App lokal den Startzeitpunkt und den zuletzt gesehenen Zeitpunkt (Abschnitt 3). Es gibt kein Konto, keinen Server und keine Geräte-Kennung für die Testphase; SHneoDesigns erstellt keinen Geräte-Fingerabdruck. Nach Ablauf der Testphase bleiben deine Einträge vollständig erhalten.
+LastDone kann nach der Installation 14 Tage lang vollständig genutzt werden. Dafür speichert die App lokal den Startzeitpunkt und den zuletzt gesehenen Zeitpunkt (Abschnitt 3). Es gibt kein Konto, keinen Server und keine Geräte-Kennung für die Testphase; SHneoDesigns erstellt keinen Geräte-Fingerabdruck. Nach Ablauf der Testphase bleiben deine Einträge vollständig erhalten. Eine Wiederherstellung aus einem Backup verlängert die Testphase nicht und startet sie nicht neu (Abschnitt 8).
 
 ## 5. Erinnerungen
 
@@ -47,7 +47,7 @@ Erinnerungen sind lokale Benachrichtigungen, die Android auf deinem Gerät plant
 
 Nach der Testphase wird LastDone durch einen einmaligen Kauf über Google Play dauerhaft freigeschaltet. Kauf und Wiederherstellung eines Kaufs laufen über Google Play und die in die App eingebundene Google-Play-Billing-Bibliothek (Version 8.0.0) von Google.
 
-Wann LastDone Google Play Billing verbindet: erst, wenn du „LastDone dauerhaft freischalten“ oder „Kauf wiederherstellen“ antippst. Ist ein Kauf auf deinem Gerät bereits bestätigt oder ein von dir begonnener Kauf noch nicht abgeschlossen, verbindet sich die App auch beim Start, um den Kaufstatus mit Google Play abzugleichen beziehungsweise den Kauf abzuschließen. Allein durch das Starten und Nutzen der App während der Testphase entsteht keine Verbindung zu Google Play Billing. Nach einer Neuinstallation stellst du einen früheren Kauf über „Kauf wiederherstellen“ wieder her.
+Wann LastDone Google Play Billing verbindet: erst, wenn du „LastDone dauerhaft freischalten“ oder „Kauf wiederherstellen“ antippst. Ist ein Kauf auf deinem Gerät bereits bestätigt oder ein von dir begonnener Kauf noch nicht abgeschlossen, verbindet sich die App auch beim Start, um den Kaufstatus mit Google Play abzugleichen beziehungsweise den Kauf abzuschließen. Allein durch das Starten und Nutzen der App während der Testphase entsteht keine Verbindung zu Google Play Billing. Nach einer Neuinstallation oder auf einem anderen Gerät stellst du einen früheren Kauf über „Kauf wiederherstellen“ wieder her, sofern der Kauf über das verwendete Google-Konto bei Google Play verfügbar ist.
 
 Kauf und Wiederherstellung: Die App fragt bei Google Play den Status des Kaufs ab, startet auf deinen Wunsch den Kaufdialog von Google Play und bestätigt einen Kauf gegenüber Google Play. Dabei verarbeitet die App die von Google Play gelieferten Kauf- und Produktinformationen (zum Beispiel Produktkennung, Kaufstatus und Kauf-Token), soweit sie für die Freischaltung erforderlich sind. Die Zahlung wickelt Google ab. Zahlungsdaten wie Kreditkarten- oder Kontonummern gibst du nur bei Google ein; SHneoDesigns erhält sie nicht.
 
@@ -75,7 +75,13 @@ Die Bewertung gibst du direkt bei Google ab; sie wird von Google verarbeitet. La
 
 ## 8. Backups
 
-Ein Backup entsteht nur, wenn du es selbst startest. Den Speicherort wählst du über die Dateiauswahl von Android. Das Backup ist eine unverschlüsselte JSON-Datei mit deinen Einträgen, deinen Einstellungen und den Zeitangaben der Testphase. Eine SHA-256-Prüfsumme dient nur dazu, beschädigte Dateien zu erkennen; sie ist weder eine Verschlüsselung noch eine digitale Signatur. Das Backup wird nicht an SHneoDesigns übertragen. Wählst du einen Speicherort eines anderen Anbieters (zum Beispiel einen Cloud-Speicher), gelten dessen Bedingungen. Für die sichere Aufbewahrung des Backups bist du selbst verantwortlich.
+Ein Backup entsteht nur, wenn du es selbst startest. Den Speicherort wählst du über die Dateiauswahl von Android. Das Backup ist eine unverschlüsselte JSON-Datei mit deinen Einträgen, deinen Einstellungen und den Zeitangaben der Testphase. Eine SHA-256-Prüfsumme dient nur dazu, beschädigte Dateien zu erkennen; sie ist weder eine Verschlüsselung noch eine digitale Signatur. Das Backup wird nicht an SHneoDesigns übertragen. Wählst du einen Speicherort eines anderen Anbieters (zum Beispiel einen Cloud-Speicher), gelten dessen Bedingungen. Für die sichere Aufbewahrung des Backups bist du selbst verantwortlich. Bewahre es am besten außerhalb des Geräts auf: Bei Verlust, Defekt oder Zurücksetzen des Geräts gehen auch Backups verloren, die auf demselben Gerät gespeichert sind.
+
+Ein Backup kannst du nach einer Neuinstallation oder auf einem anderen Android-Gerät in LastDone wiederherstellen, wenn die Datei unbeschädigt ist, von LastDone stammt und ihr Datenformat von der installierten LastDone-Version unterstützt wird. Ein mit einer neueren LastDone-Version erstelltes Backup lässt sich erst wiederherstellen, wenn die installierte App dieses Format unterstützt; LastDone weist dich dann auf eine Aktualisierung hin. Die Wiederherstellung ersetzt alle aktuellen LastDone-Daten auf dem Gerät.
+
+Ein Backup enthält keinen Kauf und schaltet LastDone nicht frei: Deine Daten stellst du aus einem Backup wieder her, einen Kauf dagegen über Google Play mit „Kauf wiederherstellen“ (Abschnitt 6). Die Zeitangaben der Testphase aus dem Backup werden bei der Wiederherstellung nur einschränkend berücksichtigt – es gelten der jeweils frühere Beginn und der spätere zuletzt gesehene Zeitpunkt. Eine Wiederherstellung verlängert die Testphase daher nicht, startet sie nicht neu und kann sie beenden.
+
+Weil LastDone deine Daten nur lokal speichert, lässt sich ein Datenverlust trotz der Backup-Funktion nicht vollständig ausschließen. Regelmäßige Backups an einem sicheren Ort verringern dieses Risiko.
 
 ## 9. Links und Online-Inhalte
 

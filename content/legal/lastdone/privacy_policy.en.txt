@@ -1,6 +1,6 @@
 # Privacy policy for LastDone
 
-Last updated: 3 October 2026
+Last updated: 4 October 2026
 
 This privacy policy applies to the Android app LastDone (listed on Google Play as "SHneo LastDone") by SHneoDesigns. It describes which personal data is processed when you use the app, by whom and for what purpose.
 
@@ -31,13 +31,13 @@ LastDone stores the following data in the app's private storage on your device. 
 - the confirmation of a purchase: the product ID and the time of confirmation (no payment details, no receipt), and, while a purchase you started has not been completed (for example with a pending payment), an empty marker file without any further information
 - technical data stored locally by built-in libraries, for example the reminders scheduled by Android and a queue of the Google Play Billing Library for diagnostic information that has not been sent yet (section 6)
 
-Android's automatic cloud backup is switched off for LastDone. If you uninstall the app or clear its storage in the Android settings, Android removes this data from your device. An existing purchase remains recorded with Google Play and can be restored.
+Android's automatic cloud backup is switched off for LastDone. If you uninstall the app or clear its storage in the Android settings, Android removes this data from your device. It is also lost if the device is lost, defective or reset. SHneoDesigns has no copy of this data and cannot restore it without a backup you have created (section 8). An existing purchase remains recorded with Google Play and can be restored.
 
 This data is stored to provide the app features you use. As it does not leave your device, SHneoDesigns has no access to it.
 
 ## 4. Trial
 
-After installation, LastDone can be used in full for 14 days. For this, the app stores the start time and the latest time seen locally (section 3). There is no account, no server and no device identifier for the trial; SHneoDesigns does not create a device fingerprint. When the trial ends, all your entries are kept.
+After installation, LastDone can be used in full for 14 days. For this, the app stores the start time and the latest time seen locally (section 3). There is no account, no server and no device identifier for the trial; SHneoDesigns does not create a device fingerprint. When the trial ends, all your entries are kept. Restoring a backup does not extend the trial and does not start it again (section 8).
 
 ## 5. Reminders
 
@@ -47,7 +47,7 @@ Reminders are local notifications that Android schedules and shows on your devic
 
 After the trial, LastDone is unlocked permanently with a one-time purchase through Google Play. Purchasing and restoring a purchase work through Google Play and the Google Play Billing Library (version 8.0.0) by Google that is built into the app.
 
-When LastDone connects to Google Play Billing: only when you tap "Unlock LastDone permanently" or "Restore purchase". If a purchase is already confirmed on your device or a purchase you started has not been completed yet, the app also connects at start to match the purchase status with Google Play or to complete the purchase. Starting and using the app during the trial does not by itself create a connection to Google Play Billing. After reinstalling, you restore an earlier purchase with "Restore purchase".
+When LastDone connects to Google Play Billing: only when you tap "Unlock LastDone permanently" or "Restore purchase". If a purchase is already confirmed on your device or a purchase you started has not been completed yet, the app also connects at start to match the purchase status with Google Play or to complete the purchase. Starting and using the app during the trial does not by itself create a connection to Google Play Billing. After reinstalling or on another device, you restore an earlier purchase with "Restore purchase", provided the purchase is available on Google Play for the Google account used.
 
 Purchase and restore: the app asks Google Play for the status of the purchase, starts the Google Play purchase dialog when you choose to buy, and confirms a purchase to Google Play. In doing so, the app processes the purchase and product information provided by Google Play (for example product ID, purchase state and purchase token) as far as needed for unlocking. Google handles the payment. You enter payment details such as card or account numbers only with Google; SHneoDesigns does not receive them.
 
@@ -75,7 +75,13 @@ You submit the rating directly to Google, and Google processes it. LastDone does
 
 ## 8. Backups
 
-A backup is only created when you start it yourself. You choose where it is saved with Android's file picker. The backup is an unencrypted JSON file with your entries, your settings and the trial's points in time. A SHA-256 checksum is only used to detect damaged files; it is neither encryption nor a digital signature. The backup is not sent to SHneoDesigns. If you choose a storage location of another provider (for example a cloud storage), its terms apply. You are responsible for keeping your backup safe.
+A backup is only created when you start it yourself. You choose where it is saved with Android's file picker. The backup is an unencrypted JSON file with your entries, your settings and the trial's points in time. A SHA-256 checksum is only used to detect damaged files; it is neither encryption nor a digital signature. The backup is not sent to SHneoDesigns. If you choose a storage location of another provider (for example a cloud storage), its terms apply. You are responsible for keeping your backup safe. Ideally keep it somewhere other than the device: if the device is lost, defective or reset, backups stored on the same device are lost as well.
+
+You can restore a backup in LastDone after reinstalling or on another Android device if the file is undamaged, comes from LastDone and its data format is supported by the installed version of LastDone. A backup created with a newer version of LastDone can only be restored once the installed app supports its format; LastDone then asks you to update. Restoring replaces all current LastDone data on the device.
+
+A backup does not contain a purchase and does not unlock LastDone: you restore your data from a backup, but a purchase through Google Play with "Restore purchase" (section 6). The trial's points in time from the backup are only applied restrictively when restoring – the earlier start and the later time last seen apply. Restoring therefore does not extend the trial, does not start it again and can end it.
+
+Because LastDone stores your data only locally, data loss cannot be ruled out completely despite the backup function. Regular backups kept in a safe place reduce this risk.
 
 ## 9. Links and online content
 

@@ -1,6 +1,6 @@
 # Terms of use for LastDone
 
-Last updated: 3 October 2026
+Last updated: 4 October 2026
 
 ## 1. Provider and scope
 
@@ -36,7 +36,11 @@ SHneoDesigns grants you the simple, non-transferable right to use LastDone for y
 
 ## 7. Your data and backups
 
-LastDone stores your entries locally on your device. SHneoDesigns has no access to this data and cannot restore it. If the device or the app data is lost, the entries can only be restored from a backup. Please create backups regularly and keep them safe. Backups are not encrypted; you are responsible for storing and protecting them.
+LastDone stores your entries locally on your device. SHneoDesigns has no access to this data, has no server copy of it and cannot restore it. If the device is lost, defective or reset, if the app data is cleared or if the app is uninstalled, your entries can be lost; they can then only be restored from a backup. Please create backups regularly and keep them safe, ideally somewhere other than the device, because backups stored on the device are lost as well if it is lost, defective or reset. Backups are not encrypted; you are responsible for storing and protecting them.
+
+You can restore a backup in LastDone after reinstalling or on another Android device if it is undamaged and its data format is supported by the installed version of LastDone. A backup does not contain a purchase: you restore your data from a backup, and the permanent unlock with "Restore purchase" (section 4). Restoring does not extend the trial and does not start it again.
+
+Because your data is stored only locally, data loss cannot be ruled out completely despite the backup function. Your statutory rights under sections 10 and 11 remain unaffected.
 
 Details on the processing of personal data are given in the LastDone privacy policy.
 
