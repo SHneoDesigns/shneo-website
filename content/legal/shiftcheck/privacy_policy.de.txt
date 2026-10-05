@@ -1,0 +1,116 @@
+# Datenschutzerklärung für ShiftCheck
+
+Stand: 4. Oktober 2026
+
+Diese Datenschutzerklärung gilt für die Android-App ShiftCheck (im Google Play Store „SHneo ShiftCheck“) von SHneoDesigns. Sie beschreibt, welche personenbezogenen Daten bei der Nutzung der App verarbeitet werden, durch wen und zu welchem Zweck.
+
+## 1. Verantwortlicher
+
+SHneoDesigns
+Inhaber: Steven Detlef Hahn
+Clara-Zetkin-Str. 19
+04610 Meuselwitz
+Deutschland
+E-Mail: support@shneo.app
+Telefon: +49 1520 3627692
+
+## 2. Überblick
+
+- ShiftCheck funktioniert ohne Benutzerkonto, ohne Registrierung und ohne Anmeldung.
+- Die Funktionen der App und deine Einträge arbeiten lokal auf deinem Gerät. SHneoDesigns betreibt keinen Server, an den die App deine Einträge sendet, und keine eigene Cloud für Nutzerdaten. Auch alle Berechnungen, Auswertungen und der Lohnabgleich laufen lokal auf deinem Gerät.
+- SHneoDesigns setzt in ShiftCheck keine eigenen Analyse- oder Tracking-Werkzeuge ein, zeigt keine Werbung, verwendet keine Werbe-ID und nutzt keinen Dienst für Absturzberichte. ShiftCheck verwendet keine künstliche Intelligenz und keine Texterkennung (OCR).
+- Die Berechtigung für den Internetzugriff benötigt ShiftCheck nur für Google Play Billing. Für den Kauf und die Wiederherstellung des Kaufs nutzt ShiftCheck Dienste von Google Play. Sobald die App mit Google Play Billing verbunden ist, überträgt die dafür eingebundene Google-Play-Billing-Bibliothek technische Diagnoseinformationen an Google (Abschnitt 7). Während der Testphase verbindet sich ShiftCheck erst mit Google Play Billing, wenn du den Kauf von „ShiftCheck Pro“ startest oder „Kauf wiederherstellen“ antippst.
+
+## 3. Daten, die nur auf deinem Gerät gespeichert werden
+
+Folgende Daten speichert ShiftCheck im privaten Speicher der App auf deinem Gerät. Sie werden von der App nicht an SHneoDesigns übertragen:
+
+- deine Einträge in der Datenbank der App: Schichtarten, Rotationen, dein manueller Plan, geplante und tatsächliche Arbeitszeiten mit Pausen, Abwesenheiten (Urlaub, krank, sonstige), manuell markierte Feiertage, Notizen, deine selbst festgelegten Zuschlagsregeln (zum Beispiel Nacht, Sonntag, Feiertag, Überstunden oder eigene Regeln), ein optionaler Stundenlohn und die Werte, die du für den Lohnabgleich aus deiner Lohnabrechnung abtippst
+- deine Einstellungen, zum Beispiel Design, Sprache, Wochenbeginn, Wochen-Sollzeit, Rundung, Toleranz und die Einstellungen für Erinnerungen
+- Angaben zur Testphase: den Startzeitpunkt der Testphase und den zuletzt von der App gesehenen Zeitpunkt (zwei Zeitangaben, keine Geräte-Kennung)
+- die Bestätigung eines Kaufs: die Produktkennung und den Zeitpunkt der Bestätigung (kein Kauf-Token, keine Zahlungsdaten, kein Kaufbeleg), und solange ein von dir begonnener Kauf noch nicht abgeschlossen ist (zum Beispiel bei einer ausstehenden Zahlung), eine leere Markierungsdatei ohne weitere Angaben
+- technische Daten, die eingebundene Bibliotheken lokal ablegen, zum Beispiel die von Android geplanten Erinnerungen und eine Warteschlange der Google-Play-Billing-Bibliothek für noch nicht übertragene Diagnoseinformationen (Abschnitt 7)
+
+Die automatische Android-Sicherung in die Cloud ist für ShiftCheck ausgeschaltet. Wenn du die App deinstallierst oder ihren Speicher in den Android-Einstellungen löschst, entfernt Android diese Daten von deinem Gerät. Auch bei Verlust, Defekt oder Zurücksetzen des Geräts gehen sie verloren. SHneoDesigns besitzt keine Kopie dieser Daten und kann sie ohne ein von dir erstelltes Backup nicht wiederherstellen (Abschnitt 8). Ein noch bestehender Kauf bleibt bei Google Play gespeichert und kann wiederhergestellt werden.
+
+Zweck dieser Speicherung ist die Bereitstellung der App-Funktionen, die du nutzt. Da die Daten dein Gerät nicht verlassen, erhält SHneoDesigns keinen Zugriff darauf.
+
+## 4. Arbeits- und Gesundheitsdaten
+
+Angaben zu deiner Arbeit, deinen Arbeitszeiten, deinen Abwesenheiten und deinem Lohn können sensibel sein. Du entscheidest selbst, was du in ShiftCheck einträgst.
+
+Krankheitstage speichert ShiftCheck nur als Tagesmarkierung „krank“, auf Wunsch mit einer Notiz, die du selbst einträgst. Angaben zu Krankheitstagen können Gesundheitsdaten und damit besondere Kategorien personenbezogener Daten im Sinne von Art. 9 DSGVO sein. Sie werden nur lokal auf deinem Gerät verarbeitet, nur weil du sie selbst einträgst, und nie an SHneoDesigns übertragen.
+
+Die Auswertungen und der Lohnabgleich („Abweichung prüfen“) sind Schätzungen auf Grundlage deiner eigenen Einträge und Regeln. Sie sind keine Rechts-, Steuer- oder Arbeitsrechtsberatung; Einzelheiten findest du in den Nutzungsbedingungen von ShiftCheck.
+
+## 5. Testphase
+
+ShiftCheck kann ab dem ersten Start 14 Tage lang vollständig genutzt werden. Dafür speichert die App lokal den Startzeitpunkt und den zuletzt gesehenen Zeitpunkt (Abschnitt 3). Es gibt kein Konto, keinen Server und keine Geräte-Kennung für die Testphase; SHneoDesigns erstellt keinen Geräte-Fingerabdruck. Nach Ablauf der Testphase bleiben deine Einträge vollständig erhalten. Eine Wiederherstellung aus einem Backup verlängert die Testphase nicht und startet sie nicht neu (Abschnitt 8).
+
+## 6. Erinnerungen
+
+Erinnerungen an anstehende Schichten, an noch nicht dokumentierte Schichten und an das Monatsende sind lokale Benachrichtigungen, die auf deinem Gerät erzeugt und von Android angezeigt werden. ShiftCheck fragt erst dann nach der Berechtigung für Benachrichtigungen, wenn du Erinnerungen einschaltest. Erinnerungen werden nicht minutengenau geplant; die App verlangt keine Berechtigung für exakte Wecker. Damit Erinnerungen nach einem Neustart des Geräts erhalten bleiben, darf die App beim Gerätestart ausgeführt werden. Es werden keine Push-Nachrichten verwendet und für Erinnerungen keine Daten übertragen.
+
+## 7. Kauf, Wiederherstellung und Google-Play-Billing-Diagnose
+
+Nach der Testphase wird ShiftCheck durch einen einmaligen Kauf von „ShiftCheck Pro“ über Google Play dauerhaft freigeschaltet. Kauf und Wiederherstellung eines Kaufs laufen über Google Play und die in die App eingebundene Google-Play-Billing-Bibliothek (Version 8.0.0) von Google.
+
+Wann ShiftCheck Google Play Billing verbindet: erst, wenn du den Kauf startest oder „Kauf wiederherstellen“ antippst. Ist ein Kauf auf deinem Gerät bereits bestätigt oder ein von dir begonnener Kauf noch nicht abgeschlossen, verbindet sich die App auch beim Start, um den Kaufstatus mit Google Play abzugleichen beziehungsweise den Kauf abzuschließen. Allein durch das Starten und Nutzen der App während der Testphase entsteht keine Verbindung zu Google Play Billing. Nach einer Neuinstallation oder auf einem anderen Gerät stellst du einen früheren Kauf über „Kauf wiederherstellen“ wieder her, sofern der Kauf über das verwendete Google-Konto bei Google Play verfügbar ist.
+
+Kauf und Wiederherstellung: Die App fragt bei Google Play den Status des Kaufs ab, startet auf deinen Wunsch den Kaufdialog von Google Play und bestätigt einen Kauf gegenüber Google Play. Dabei verarbeitet die App die von Google Play gelieferten Kauf- und Produktinformationen (zum Beispiel Produktkennung, Kaufstatus und Kauf-Token), soweit sie für die Freischaltung erforderlich sind; auf dem Gerät gespeichert werden davon nur die Produktkennung und der Zeitpunkt der Bestätigung (Abschnitt 3). Die Zahlung wickelt Google ab. Zahlungsdaten wie Kreditkarten- oder Kontonummern gibst du nur bei Google ein; SHneoDesigns erhält sie nicht.
+
+Automatische Diagnose: Bei einer technischen Prüfung wurde festgestellt, dass die Google-Play-Billing-Bibliothek, sobald sie mit Google Play verbunden wird – auch wenn danach kein Kauf zustande kommt –, technische Diagnoseinformationen erzeugt, kurz auf dem Gerät zwischenspeichert und an Google überträgt (an den Google-Dienst firebaselogging.googleapis.com, Quelle „PLAY_BILLING_LIBRARY“). Beobachtet wurden insbesondere:
+
+- Version der Billing-Bibliothek, Paketname und Version der App
+- eine technische Sitzungskennung der Bibliothek
+- Android-Version beziehungsweise API-Stufe
+- Land, Sprache und Zeitzone
+- Mobilfunknetz-Kennung (MCC/MNC) und Art der Netzwerkverbindung
+- Hersteller, Modell, Geräte-, Produkt- und Hardwarebezeichnung, Android-Build-Informationen und Build-Fingerprint
+- technische Status- und Fehlerinformationen der Billing-Verbindung
+
+Bei jeder Verbindung ist für den Empfänger technisch außerdem die IP-Adresse deines Geräts sichtbar.
+
+Diese Übertragung erfolgt durch die Bibliothek von Google direkt an Google. SHneoDesigns erhält diese Diagnoseinformationen nicht und nutzt sie nicht. Google verarbeitet sie nach eigenen Bestimmungen; wie lange Google sie speichert, legt Google fest. Informationen dazu findest du in der Datenschutzerklärung von Google: https://policies.google.com/privacy
+
+Rechtsgrundlage für die Einbindung von Google Play Billing ist Art. 6 Abs. 1 lit. b DSGVO, soweit es um den Kauf und dessen Wiederherstellung geht, und im Übrigen Art. 6 Abs. 1 lit. f DSGVO. Das berechtigte Interesse von SHneoDesigns liegt darin, Kauf und Wiederherstellung über die offizielle und von Google Play vorgesehene Schnittstelle anzubieten.
+
+## 8. Backups und CSV-Export
+
+Ein Backup entsteht nur, wenn du es selbst startest. Den Speicherort wählst du über die Dateiauswahl von Android. Das Backup ist eine unverschlüsselte JSON-Datei mit deinen Einträgen, deinen Einstellungen und den Zeitangaben der Testphase; es kann also auch Angaben zu Arbeitszeiten, Lohn und Krankheitstagen enthalten. Eine SHA-256-Prüfsumme dient nur dazu, beschädigte Dateien zu erkennen; sie ist weder eine Verschlüsselung noch eine digitale Signatur. Das Backup wird nicht an SHneoDesigns übertragen. Wählst du einen Speicherort eines anderen Anbieters (zum Beispiel einen Cloud-Speicher), gelten dessen Bedingungen. Für die sichere Aufbewahrung des Backups bist du selbst verantwortlich. Bewahre es am besten außerhalb des Geräts auf: Bei Verlust, Defekt oder Zurücksetzen des Geräts gehen auch Backups verloren, die auf demselben Gerät gespeichert sind.
+
+Ein Backup kannst du nach einer Neuinstallation oder auf einem anderen Android-Gerät in ShiftCheck wiederherstellen, wenn die Datei unbeschädigt ist, von ShiftCheck stammt und ihr Datenformat von der installierten ShiftCheck-Version unterstützt wird. Ein mit einer neueren ShiftCheck-Version erstelltes Backup lässt sich erst wiederherstellen, wenn die installierte App dieses Format unterstützt; ShiftCheck weist dich dann auf eine Aktualisierung hin. Die Wiederherstellung ersetzt alle aktuellen ShiftCheck-Daten auf dem Gerät.
+
+Ein Backup enthält keinen Kauf und schaltet ShiftCheck nicht frei: Deine Daten stellst du aus einem Backup wieder her, einen Kauf dagegen über Google Play mit „Kauf wiederherstellen“ (Abschnitt 7). Die Zeitangaben der Testphase aus dem Backup werden bei der Wiederherstellung nur einschränkend berücksichtigt – es gelten der jeweils frühere Beginn und der spätere zuletzt gesehene Zeitpunkt. Eine Wiederherstellung verlängert die Testphase daher nicht, startet sie nicht neu und kann sie beenden.
+
+Einen Monat kannst du außerdem als CSV-Datei exportieren. Auch dafür wählst du den Speicherort über die Dateiauswahl von Android. Die CSV-Datei ist ebenfalls unverschlüsselt und wird nicht an SHneoDesigns übertragen. Bewahre sie sorgfältig auf; wenn du sie weitergibst, entscheidest du selbst, wer die enthaltenen Angaben erhält.
+
+Weil ShiftCheck deine Daten nur lokal speichert, lässt sich ein Datenverlust trotz der Backup-Funktion nicht vollständig ausschließen. Regelmäßige Backups an einem sicheren Ort verringern dieses Risiko.
+
+## 9. Links
+
+Öffnest du aus ShiftCheck heraus das Impressum unter https://shneo.app/legal/imprint/, wird es in deinem Browser geöffnet. Dabei gilt die Datenschutzerklärung der Website https://shneo.app/legal/privacy/
+
+## 10. Support per E-Mail
+
+Wenn du uns an support@shneo.app schreibst, verarbeiten wir die Daten, die du uns dabei übermittelst, zum Beispiel deine E-Mail-Adresse, deinen Namen (falls angegeben), den Inhalt deiner Nachricht, Anhänge und technische Angaben, die du freiwillig mitsendest. Wir verwenden diese Daten nur, um deine Anfrage zu bearbeiten. Bitte sende uns keine Passwörter, Zahlungsdaten, Lohnabrechnungen, Backups, Gesundheitsangaben oder andere vertrauliche Daten.
+
+Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, soweit deine Anfrage einen Vertrag oder dessen Anbahnung betrifft, und im Übrigen Art. 6 Abs. 1 lit. f DSGVO (unser berechtigtes Interesse, Anfragen zu beantworten). Wir speichern die Daten, solange es für die Bearbeitung deiner Anfrage erforderlich ist; gesetzliche Aufbewahrungspflichten bleiben unberührt.
+
+Unser E-Mail-Postfach wird von Zoho Corporation B.V., Beneluxlaan 4B, 3527 HT Utrecht, Niederlande, als Auftragsverarbeiter betrieben. Informationen zum Datenschutz bei Zoho: https://www.zoho.com/privacy.html
+
+## 11. Keine weitergehende Verarbeitung
+
+SHneoDesigns verkauft keine Daten, betreibt kein Profiling und trifft keine automatisierten Entscheidungen im Sinne von Art. 22 DSGVO. ShiftCheck verlangt keinen Zugriff auf Standort, Kontakte, Kamera oder Mikrofon.
+
+## 12. Deine Rechte
+
+Soweit SHneoDesigns personenbezogene Daten von dir verarbeitet (zum Beispiel bei einer Support-Anfrage), hast du nach der DSGVO das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und das Recht, einer Verarbeitung auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO aus Gründen, die sich aus deiner besonderen Situation ergeben, zu widersprechen (Art. 21). Wende dich dafür an support@shneo.app.
+
+Daten, die nur auf deinem Gerät gespeichert sind, kannst du selbst jederzeit in der App ändern oder durch Deinstallation der App löschen. Für Daten, die Google verarbeitet, wende dich bitte an Google.
+
+Du hast außerdem das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren. Für SHneoDesigns zuständig ist: Thüringer Landesbeauftragter für den Datenschutz und die Informationsfreiheit, Häßlerstraße 8, 99096 Erfurt, https://www.tlfdi.de
+
+## 13. Änderungen
+
+Wenn sich die App oder die Rechtslage ändert, passen wir diese Datenschutzerklärung an. Die jeweils aktuelle Fassung findest du in der App.

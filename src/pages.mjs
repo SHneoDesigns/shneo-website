@@ -160,7 +160,12 @@ export function appPage(app, lang) {
             <ul class="ticks">${c.data.map((m) => `<li>${esc(m)}</li>`).join('')}</ul>
           </section>
         </div>
-
+${c.notes ? `
+        <section class="block card" aria-labelledby="notes-h">
+          <h2 id="notes-h">${t.appNotes}</h2>
+          <ul class="ticks">${c.notes.map((m) => `<li>${esc(m)}</li>`).join('')}</ul>
+        </section>
+` : ''}
         <section class="block" aria-labelledby="links-h">
           <h2 id="links-h">${t.appLinks}</h2>
           <ul class="link-cards">
