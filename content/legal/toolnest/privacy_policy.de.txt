@@ -1,0 +1,123 @@
+# Datenschutzerklärung für ToolNest
+
+Stand: 7. Oktober 2026
+
+Diese Datenschutzerklärung gilt für die Android-App ToolNest (im Google Play Store „SHneo ToolNest“) von SHneoDesigns. Sie beschreibt, welche personenbezogenen Daten bei der Nutzung der App verarbeitet werden, durch wen und zu welchem Zweck.
+
+## 1. Verantwortlicher
+
+SHneoDesigns
+Inhaber: Steven Detlef Hahn
+Clara-Zetkin-Str. 19
+04610 Meuselwitz
+Deutschland
+E-Mail: support@shneo.app
+Telefon: +49 1520 3627692
+
+## 2. Überblick
+
+- ToolNest funktioniert ohne Benutzerkonto, ohne Registrierung und ohne Anmeldung.
+- Die Funktionen der App und deine Einträge arbeiten lokal auf deinem Gerät. SHneoDesigns betreibt keinen Server, an den die App deine Einträge, Fotos oder Dokumente sendet, und keine eigene Cloud für Nutzerdaten. Auch Suche und Erinnerungen laufen lokal auf deinem Gerät.
+- SHneoDesigns setzt in ToolNest keine eigenen Analyse- oder Tracking-Werkzeuge ein, zeigt keine Werbung, verwendet keine Werbe-ID und nutzt keinen Dienst für Absturzberichte. ToolNest verwendet keine künstliche Intelligenz, keine Bilderkennung und keine Texterkennung (OCR).
+- Die Berechtigung für den Internetzugriff benötigt ToolNest nur für Google Play Billing. Für den Kauf und die Wiederherstellung des Kaufs nutzt ToolNest Dienste von Google Play. Sobald die App mit Google Play Billing verbunden ist, überträgt die dafür eingebundene Google-Play-Billing-Bibliothek technische Diagnoseinformationen an Google (Abschnitt 8). Während der Testphase verbindet sich ToolNest erst mit Google Play Billing, wenn du den Kauf von „ToolNest Pro“ startest oder „Kauf wiederherstellen“ antippst.
+
+## 3. Daten, die nur auf deinem Gerät gespeichert werden
+
+Folgende Daten speichert ToolNest im privaten Speicher der App auf deinem Gerät. Sie werden von der App nicht an SHneoDesigns übertragen:
+
+- deine Einträge in der Datenbank der App: deine Gegenstände mit Name, Kategorie, Lagerort, Marke, Modell, Seriennummer, Kaufdatum, Kaufpreis, Zustand und Notizen; deine Kategorien und Lagerorte; geplante Wartungen und Erinnerungen; das Wartungsprotokoll und der Verlauf jedes Eintrags (zum Beispiel angelegt, verschoben, bearbeitet)
+- die Fotos und Dokumente, die du Einträgen hinzufügst (Abschnitt 4)
+- deine Einstellungen, zum Beispiel Design, Sprache, Währung und die Einstellungen für Erinnerungen
+- Angaben zur Testphase: den Startzeitpunkt der Testphase und den zuletzt von der App gesehenen Zeitpunkt (zwei Zeitangaben, keine Geräte-Kennung)
+- die Bestätigung eines Kaufs: die Produktkennung und den Zeitpunkt der Bestätigung (kein Kauf-Token, keine Zahlungsdaten, kein Kaufbeleg), und solange ein von dir begonnener Kauf noch nicht abgeschlossen ist (zum Beispiel bei einer ausstehenden Zahlung), eine leere Markierungsdatei ohne weitere Angaben
+- technische Daten, die eingebundene Bibliotheken lokal ablegen, zum Beispiel die von Android geplanten Erinnerungen und eine Warteschlange der Google-Play-Billing-Bibliothek für noch nicht übertragene Diagnoseinformationen (Abschnitt 8)
+
+Die automatische Android-Sicherung in die Cloud ist für ToolNest ausgeschaltet. Wenn du die App deinstallierst oder ihren Speicher in den Android-Einstellungen löschst, entfernt Android diese Daten von deinem Gerät. Auch bei Verlust, Defekt oder Zurücksetzen des Geräts gehen sie verloren. SHneoDesigns besitzt keine Kopie dieser Daten und kann sie ohne ein von dir erstelltes Backup nicht wiederherstellen (Abschnitt 9). Ein noch bestehender Kauf bleibt bei Google Play gespeichert und kann wiederhergestellt werden.
+
+Zweck dieser Speicherung ist die Bereitstellung der App-Funktionen, die du nutzt. Da die Daten dein Gerät nicht verlassen, erhält SHneoDesigns keinen Zugriff darauf.
+
+## 4. Fotos, Kamera und Dokumente
+
+Fotos: Wenn du für einen Eintrag ein Foto aufnimmst, öffnet ToolNest die Kamera-App deines Geräts; wenn du Fotos aus der Galerie hinzufügst, nutzt ToolNest die Fotoauswahl von Android, die der App nur Zugriff auf die von dir ausgewählten Fotos gibt. Für das Aufnehmen von Fotos und das Scannen von QR-Codes fragt Android dich bei der ersten Nutzung nach der Kamera-Berechtigung; du kannst sie ablehnen oder jederzeit in den Android-Einstellungen widerrufen – alle übrigen Funktionen arbeiten weiter. ToolNest speichert eine verkleinerte Kopie jedes Fotos (höchstens 2048 Pixel an der längsten Seite) in seinem privaten Speicher. Vor dem Speichern entfernt ToolNest Metadaten, die dich oder einen Ort erkennbar machen können, insbesondere den GPS-Standort, Seriennummern der Kamera, Namen des Besitzers und Aufnahmezeiten; erhalten bleibt nur die Ausrichtung des Bildes. Je nach Gerät behält die Kamera-App eine eigene Kopie des Fotos in deiner Galerie; das liegt außerhalb von ToolNest.
+
+QR-Scanner: Solange der Scanner geöffnet ist, wird das Kamerabild live und nur auf deinem Gerät ausgewertet, um einen Code zu lesen. Kamerabilder werden weder gespeichert noch übertragen.
+
+Dokumente: Dokumente, die du hinzufügst (zum Beispiel eine Rechnung, einen Garantieschein oder eine Anleitung), werden über die Dateiauswahl von Android in den privaten Speicher der App kopiert; ToolNest verändert ihren Inhalt nicht. Du entscheidest, welches Dokument du hinzufügst. Wenn du ein Dokument öffnest oder teilst, übergibt ToolNest eine Kopie an die App, die du auswählst (zum Beispiel einen PDF-Betrachter oder einen Messenger); dann gelten deren Bedingungen.
+
+Fotos und Dokumente können Personen zeigen oder persönliche Angaben enthalten. Bitte füge nur Inhalte hinzu, die du speichern darfst.
+
+## 5. QR-Etiketten
+
+Ein QR-Etikett von ToolNest enthält nur einen technischen Code der Form „toolnest:location:…“ oder „toolnest:item:…“ mit einer zufälligen Kennung – keine Namen, keine Adresse und keinen Link ins Internet. Wenn du ein Etikett als Bild speicherst oder teilst, bestimmst du, wohin es geht. Ein Scan öffnet den Ort oder Eintrag nur in ToolNest auf einem Gerät, das dieselben Daten hat.
+
+## 6. Testphase
+
+Ab dem ersten Start kannst du ToolNest 14 Tage lang vollständig nutzen. Dafür speichert die App den Startzeitpunkt und den zuletzt gesehenen Zeitpunkt lokal (Abschnitt 3). Für die Testphase gibt es kein Konto, keinen Server und keine Geräte-Kennung; SHneoDesigns erstellt keinen Geräte-Fingerabdruck. Nach dem Ende der Testphase bleiben alle deine Einträge, Fotos und Dokumente erhalten. Das Wiederherstellen eines Backups verlängert die Testphase nicht und startet sie nicht neu (Abschnitt 9).
+
+## 7. Erinnerungen
+
+Erinnerungen an geplante Wartungen, Prüfungen und Garantietermine sind lokale Benachrichtigungen, die auf deinem Gerät erstellt und von Android angezeigt werden. ToolNest fragt nach der Benachrichtigungs-Berechtigung erst, wenn du Erinnerungen einschaltest oder eine Wartung mit Erinnerung speicherst. Erinnerungen werden nicht minutengenau geplant; die App fordert keine Berechtigung für exakte Alarme an. Damit Erinnerungen nach einem Neustart des Geräts erhalten bleiben, darf die App beim Gerätestart ausgeführt werden. Es werden keine Push-Nachrichten verwendet und für Erinnerungen keine Daten übertragen.
+
+## 8. Kauf, Wiederherstellung und Google-Play-Billing-Diagnose
+
+Nach der Testphase wird ToolNest durch einen einmaligen Kauf von „ToolNest Pro“ über Google Play dauerhaft freigeschaltet. Kauf und Wiederherstellung eines Kaufs laufen über Google Play und die in die App eingebundene Google-Play-Billing-Bibliothek (Version 8.0.0) von Google.
+
+Wann ToolNest Google Play Billing verbindet: erst, wenn du den Kauf startest oder „Kauf wiederherstellen“ antippst. Ist ein Kauf auf deinem Gerät bereits bestätigt oder ein von dir begonnener Kauf noch nicht abgeschlossen, verbindet sich die App auch beim Start, um den Kaufstatus mit Google Play abzugleichen beziehungsweise den Kauf abzuschließen. Allein durch das Starten und Nutzen der App während der Testphase entsteht keine Verbindung zu Google Play Billing. Nach einer Neuinstallation oder auf einem anderen Gerät stellst du einen früheren Kauf über „Kauf wiederherstellen“ wieder her, sofern der Kauf über das verwendete Google-Konto bei Google Play verfügbar ist.
+
+Kauf und Wiederherstellung: Die App fragt bei Google Play den Status des Kaufs ab, startet auf deinen Wunsch den Kaufdialog von Google Play und bestätigt einen Kauf gegenüber Google Play. Dabei verarbeitet die App die von Google Play gelieferten Kauf- und Produktinformationen (zum Beispiel Produktkennung, Kaufstatus und Kauf-Token), soweit sie für die Freischaltung erforderlich sind; auf dem Gerät gespeichert werden davon nur die Produktkennung und der Zeitpunkt der Bestätigung (Abschnitt 3). Die Zahlung wickelt Google ab. Zahlungsdaten wie Kreditkarten- oder Kontonummern gibst du nur bei Google ein; SHneoDesigns erhält sie nicht.
+
+Automatische Diagnose: Bei einer technischen Prüfung derselben Billing-Bibliothek in einer anderen App von SHneoDesigns wurde festgestellt, dass die Google-Play-Billing-Bibliothek, sobald sie mit Google Play verbunden wird – auch wenn danach kein Kauf zustande kommt –, technische Diagnoseinformationen erzeugt, kurz auf dem Gerät zwischenspeichert und an Google überträgt (an den Google-Dienst firebaselogging.googleapis.com, Quelle „PLAY_BILLING_LIBRARY“). Beobachtet wurden insbesondere:
+
+- Version der Billing-Bibliothek, Paketname und Version der App
+- eine technische Sitzungskennung der Bibliothek
+- Android-Version beziehungsweise API-Stufe
+- Land, Sprache und Zeitzone
+- Mobilfunknetz-Kennung (MCC/MNC) und Art der Netzwerkverbindung
+- Hersteller, Modell, Geräte-, Produkt- und Hardwarebezeichnung, Android-Build-Informationen und Build-Fingerprint
+- technische Status- und Fehlerinformationen der Billing-Verbindung
+
+Bei jeder Verbindung ist für den Empfänger technisch außerdem die IP-Adresse deines Geräts sichtbar.
+
+Diese Übertragung erfolgt durch die Bibliothek von Google direkt an Google. SHneoDesigns erhält diese Diagnoseinformationen nicht und nutzt sie nicht. Google verarbeitet sie nach eigenen Bestimmungen; wie lange Google sie speichert, legt Google fest. Informationen dazu findest du in der Datenschutzerklärung von Google: https://policies.google.com/privacy
+
+Rechtsgrundlage für die Einbindung von Google Play Billing ist Art. 6 Abs. 1 lit. b DSGVO, soweit es um den Kauf und dessen Wiederherstellung geht, und im Übrigen Art. 6 Abs. 1 lit. f DSGVO. Das berechtigte Interesse von SHneoDesigns liegt darin, Kauf und Wiederherstellung über die offizielle und von Google Play vorgesehene Schnittstelle anzubieten.
+
+## 9. Backups, CSV-Export und -Import
+
+Ein Backup wird nur erstellt, wenn du es selbst startest. Du wählst über die Dateiauswahl von Android, wo es gespeichert wird, oder über den Teilen-Dialog, an welche App es übergeben wird. Das Backup ist eine unverschlüsselte ZIP-Datei mit deinen Einträgen, deinen Einstellungen, den Zeitpunkten der Testphase sowie allen Fotos und Dokumenten. Eine SHA-256-Prüfsumme dient nur dazu, beschädigte Dateien zu erkennen; sie ist weder eine Verschlüsselung noch eine digitale Signatur. Das Backup wird nicht an SHneoDesigns übertragen. Wählst du einen Speicherort oder eine App eines anderen Anbieters (zum Beispiel einen Cloud-Speicher oder einen Messenger), gelten dessen Bedingungen. Für die sichere Aufbewahrung deines Backups bist du selbst verantwortlich. Bewahre es am besten außerhalb des Geräts auf: Bei Verlust, Defekt oder Zurücksetzen des Geräts gehen auch dort gespeicherte Backups verloren.
+
+Du kannst ein Backup nach einer Neuinstallation oder auf einem anderen Android-Gerät in ToolNest wiederherstellen, wenn die Datei unbeschädigt ist, von ToolNest stammt und ihr Datenformat von der installierten Version von ToolNest unterstützt wird. Bevor etwas ersetzt wird, prüft ToolNest die vollständige Datei einschließlich jedes Fotos und Dokuments. Das Wiederherstellen ersetzt alle aktuellen Daten, Fotos und Dokumente von ToolNest auf dem Gerät.
+
+Ein Backup enthält keinen Kauf und schaltet ToolNest nicht frei: Deine Daten stellst du aus einem Backup wieder her, einen Kauf über Google Play mit „Kauf wiederherstellen“ (Abschnitt 8). Die Zeitpunkte der Testphase aus dem Backup werden beim Wiederherstellen nur einschränkend übernommen – es gelten der frühere Start und der spätere zuletzt gesehene Zeitpunkt. Das Wiederherstellen verlängert die Testphase daher nicht, startet sie nicht neu und kann sie beenden.
+
+Außerdem kannst du deine Einträge als CSV-Datei (ohne Fotos und Dokumente) exportieren und speichern oder teilen. Auch die CSV-Datei ist unverschlüsselt und wird nicht an SHneoDesigns übertragen. Du kannst eine CSV-Datei im ToolNest-Format importieren; ihr Inhalt wird nur auf deinem Gerät gelesen.
+
+Da ToolNest deine Daten nur lokal speichert, ist ein Datenverlust trotz Backup-Funktion nicht vollständig auszuschließen. Regelmäßige Backups an einem sicheren Ort verringern dieses Risiko.
+
+## 10. Links
+
+Öffnest du aus ToolNest heraus das Impressum unter https://shneo.app/legal/imprint/, wird es in deinem Browser geöffnet. Dabei gilt die Datenschutzerklärung der Website https://shneo.app/legal/privacy/
+
+## 11. Support per E-Mail
+
+Wenn du uns an support@shneo.app schreibst, verarbeiten wir die Daten, die du uns dabei übermittelst, zum Beispiel deine E-Mail-Adresse, deinen Namen (falls angegeben), den Inhalt deiner Nachricht, Anhänge und technische Angaben, die du freiwillig mitsendest. Wir verwenden diese Daten nur, um deine Anfrage zu bearbeiten. Bitte sende uns keine Passwörter, Zahlungsdaten, Backups oder andere vertrauliche Daten.
+
+Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, soweit deine Anfrage einen Vertrag oder dessen Anbahnung betrifft, und im Übrigen Art. 6 Abs. 1 lit. f DSGVO (unser berechtigtes Interesse, Anfragen zu beantworten). Wir speichern die Daten, solange es für die Bearbeitung deiner Anfrage erforderlich ist; gesetzliche Aufbewahrungspflichten bleiben unberührt.
+
+Unser E-Mail-Postfach wird von Zoho Corporation B.V., Beneluxlaan 4B, 3527 HT Utrecht, Niederlande, als Auftragsverarbeiter betrieben. Informationen zum Datenschutz bei Zoho: https://www.zoho.com/privacy.html
+
+## 12. Keine weitergehende Verarbeitung
+
+SHneoDesigns verkauft keine Daten, betreibt kein Profiling und trifft keine automatisierten Entscheidungen im Sinne von Art. 22 DSGVO. ToolNest verlangt keinen Zugriff auf Standort, Kontakte oder Mikrofon und liest keine Fotos oder Dateien außer denen, die du auswählst.
+
+## 13. Deine Rechte
+
+Soweit SHneoDesigns personenbezogene Daten von dir verarbeitet (zum Beispiel bei einer Support-Anfrage), hast du nach der DSGVO das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und das Recht, einer Verarbeitung auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO aus Gründen, die sich aus deiner besonderen Situation ergeben, zu widersprechen (Art. 21). Wende dich dafür an support@shneo.app.
+
+Daten, die nur auf deinem Gerät gespeichert sind, kannst du selbst jederzeit in der App ändern oder durch Deinstallation der App löschen. Für Daten, die Google verarbeitet, wende dich bitte an Google.
+
+Du hast außerdem das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren. Für SHneoDesigns zuständig ist: Thüringer Landesbeauftragter für den Datenschutz und die Informationsfreiheit, Häßlerstraße 8, 99096 Erfurt, https://www.tlfdi.de
+
+## 14. Änderungen
+
+Wenn sich die App oder die Rechtslage ändert, passen wir diese Datenschutzerklärung an. Die jeweils aktuelle Fassung findest du in der App.

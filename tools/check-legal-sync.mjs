@@ -13,9 +13,11 @@ for (const lang of ['de', 'en']) {
   for (const name of ['privacy_policy', 'terms']) {
     pairs.push([`apps/shneo_lastdone/assets/legal/${name}.${lang}.txt`, `lastdone/${name}.${lang}.txt`]);
     pairs.push([`apps/shneo_shiftcheck/assets/legal/${name}.${lang}.txt`, `shiftcheck/${name}.${lang}.txt`]);
+    pairs.push([`apps/shneo_toolnest/assets/legal/${name}.${lang}.txt`, `toolnest/${name}.${lang}.txt`]);
   }
   pairs.push([`apps/shneo_lastdone/assets/legal/imprint.${lang}.txt`, `site/imprint.${lang}.txt`]);
   pairs.push([`apps/shneo_shiftcheck/assets/legal/imprint.${lang}.txt`, `site/imprint.${lang}.txt`]);
+  pairs.push([`apps/shneo_toolnest/assets/legal/imprint.${lang}.txt`, `site/imprint.${lang}.txt`]);
 }
 
 if (!existsSync(tools)) {

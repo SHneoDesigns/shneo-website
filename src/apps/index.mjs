@@ -4,5 +4,6 @@
 
 import lastdone from './lastdone.mjs';
 import shiftcheck from './shiftcheck.mjs';
+import toolnest from './toolnest.mjs';
 
-export const apps = [lastdone, shiftcheck];
+export const apps = [lastdone, shiftcheck, toolnest];
